@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=1.26
+pyyaml>=6.0
+yfinance>=0.2.50
+alpaca-py>=0.30
+requests>=2.31
+lxml>=5.0

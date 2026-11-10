@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading Project — Paper Portfolio</title>
+<meta name="description" content="Multi-factor stock screener and paper-trading bot: live equity, positions and trade log.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1c1f23; --muted: #646a73; --line: #e2e0d9;
+    --accent: #1f5f8b; --bench: #a8a39a; --up: #1d7a4f; --down: #b3412f; --chip: #eef2f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121417; --panel: #1a1d21; --ink: #e8e6e1; --muted: #9aa0a8; --line: #2a2e34;
+      --accent: #6aaee0; --bench: #6f6a63; --up: #4cc28a; --down: #e2715e; --chip: #232830;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 "IBM Plex Sans", system-ui, sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px;
+           border-bottom: 2px solid var(--ink); padding-bottom: 14px; margin-bottom: 24px; }
+  h1 { margin: 0; font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; margin: 0 0 12px; }
+  .sub { color: var(--muted); font-size: 14px; }
+  .mono, td.num, .kpi .v { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+  .badge { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 3px; background: var(--chip); color: var(--muted); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--line);
+          border: 1px solid var(--line); margin-bottom: 28px; }
+  .kpi { background: var(--panel); padding: 14px 16px; }
+  .kpi .k { font-size: 12px; color: var(--muted); }
+  .kpi .v { font-size: 22px; margin-top: 2px; }
+  .kpi .d { font-size: 12px; color: var(--muted); }
+  section { background: var(--panel); border: 1px solid var(--line); padding: 20px; margin-bottom: 24px; }
+  .chart { position: relative; height: 300px; }
+  .chart.small { height: 140px; }
+  .grid2 { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+  @media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+  .tablewrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th { text-align: left; font-weight: 500; color: var(--muted); border-bottom: 1px solid var(--line); padding: 6px 8px; white-space: nowrap; }
+  td { border-bottom: 1px solid var(--line); padding: 7px 8px; vertical-align: top; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  .up { color: var(--up); } .down { color: var(--down); }
+  .why { color: var(--muted); font-size: 12.5px; max-width: 520px; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 12.5px; }
+  .side { font-size: 11px; font-weight: 600; letter-spacing: 0.05em; padding: 1px 6px; border-radius: 3px; }
+  .side.buy { background: color-mix(in srgb, var(--up) 15%, transparent); color: var(--up); }
+  .side.sell { background: color-mix(in srgb, var(--down) 15%, transparent); color: var(--down); }
+  .filters button { font: inherit; font-size: 12.5px; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+                    padding: 3px 10px; cursor: pointer; }
+  .filters button.on { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+  .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; font-size: 14px; }
+  .rules div b { display: block; font-weight: 600; margin-bottom: 2px; }
+  .empty { color: var(--muted); padding: 24px 0; text-align: center; }
+  .note { font-size: 12.5px; color: var(--muted); margin-top: 10px; }
+  footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Trading Project</h1>
+      <div class="sub">Multi-factor screener &amp; paper-trading bot · momentum · value · quality · risk-based sizing</div>
+    </div>
+    <div class="sub" style="text-align:right">
+      <span class="badge" id="broker">—</span><br>
+      <span id="updated">loading…</span>
+    </div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px">
+      <h2>Equity vs. <span id="benchName">SPY</span> (paper)</h2>
+      <span class="sub" id="sinceLabel"></span>
+    </div>
+    <div class="chart"><canvas id="eqChart"></canvas></div>
+    <div class="chart small" style="margin-top:12px"><canvas id="ddChart"></canvas></div>
+    <div class="empty" id="eqEmpty" hidden>No live history yet — the bot records one point per trading day after its first run.</div>
+  </section>
+
+  <section>
+    <h2>Open positions</h2>
+    <div class="tablewrap"><table id="posTable"></table></div>
+  </section>
+
+  <section>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px">
+      <h2>Trade log — every order with its reason and kill criteria</h2>
+      <div class="filters" id="tradeFilters">
+        <button data-f="all" class="on">All</button><button data-f="buy">Buys</button><button data-f="sell">Sells</button>
+      </div>
+    </div>
+    <div class="tablewrap"><table id="tradeTable"></table></div>
+    <div class="filters" style="margin-top:12px"><button id="moreTrades" hidden onclick="SHOW_ALL = true; trades();"></button></div>
+  </section>
+
+  <div class="grid2">
+    <section>
+      <h2>Backtest (momentum-only, with costs)</h2>
+      <div class="chart"><canvas id="btChart"></canvas></div>
+      <div id="btStats"></div>
+      <p class="note">Price-only because free sources only have today's fundamentals — using them historically would leak future information.
+        The universe is today's index members, so results carry survivorship bias. Treat as an upper bound.</p>
+    </section>
+    <section>
+      <h2>Current top ranks</h2>
+      <div class="tablewrap"><table id="rankTable"></table></div>
+    </section>
+  </div>
+
+  <section>
+    <h2>The rules</h2>
+    <div class="rules" id="rules"></div>
+  </section>
+
+  <footer>
+    Educational project using an Alpaca <b>paper</b> account — no real money. Not investment advice.
+    Data: Yahoo Finance via yfinance. Source code and full method in the repository README.
+  </footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const pct = (x, d = 1) => x == null ? "—" : (x * 100).toFixed(d) + "%";
+const spct = (x, d = 1) => x == null ? "—" : (x >= 0 ? "+" : "") + (x * 100).toFixed(d) + "%";
+const usd = (x, d = 0) => x == null ? "—" : "$" + Number(x).toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+const cls = (x) => x == null ? "" : x >= 0 ? "up" : "down";
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+function lineChart(el, labels, sets, opts = {}) {
+  Chart.defaults.font.family = "IBM Plex Sans, system-ui, sans-serif";
+  Chart.defaults.color = css("--muted");
+  return new Chart(el, {
+    type: "line",
+    data: { labels, datasets: sets.map((s) => ({ pointRadius: 0, borderWidth: 1.8, tension: 0.15, ...s })) },
+    options: {
+      maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      plugins: { legend: { display: sets.length > 1, labels: { boxWidth: 12 } },
+                 tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${opts.pct ? pct(c.parsed.y) : usd(c.parsed.y)}` } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxTicksLimit: 8 } },
+        y: { grid: { color: css("--line") }, ticks: { callback: (v) => opts.pct ? pct(v, 0) : usd(v) } },
+      },
+    },
+  });
+}
+
+function kpis(d) {
+  const s = d.live_stats || {};
+  const items = [
+    ["Equity", usd(s.equity), `cash ${usd(s.cash)}`],
+    ["Return", spct(s.total_return), `${d.benchmark_symbol} ${spct(s.benchmark_return)}`],
+    ["Max drawdown", pct(s.max_drawdown), "peak to trough"],
+    ["Positions", (d.positions || []).length, `max ${d.config.max_positions}`],
+    ["Last rebalance", d.last_rebalance || "—", `last run ${d.last_run || "—"}`],
+  ];
+  $("kpis").innerHTML = items.map(([k, v, sub]) =>
+    `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${sub}</div></div>`).join("");
+}
+
+function equity(d) {
+  const e = d.equity || [];
+  if (e.length < 2) { $("eqEmpty").hidden = false; $("eqChart").parentNode.hidden = true; $("ddChart").parentNode.hidden = true; return; }
+  $("sinceLabel").textContent = `since ${e[0].date}`;
+  const labels = e.map((r) => r.date);
+  lineChart($("eqChart"), labels, [
+    { label: "Portfolio", data: e.map((r) => r.equity), borderColor: css("--accent") },
+    { label: d.benchmark_symbol, data: e.map((r) => r.benchmark), borderColor: css("--bench"), borderDash: [4, 3] },
+  ]);
+  let peak = -Infinity;
+  const dd = e.map((r) => { peak = Math.max(peak, r.equity); return r.equity / peak - 1; });
+  lineChart($("ddChart"), labels, [{ label: "Drawdown", data: dd, borderColor: css("--down"), fill: true,
+    backgroundColor: css("--down") + "22" }], { pct: true });
+}
+
+function positions(d) {
+  const p = d.positions || [];
+  if (!p.length) { $("posTable").innerHTML = `<tr><td class="empty">No open positions.</td></tr>`; return; }
+  $("posTable").innerHTML = `<tr><th>Symbol</th><th>Sector</th><th class="num">Qty</th><th class="num">Entry</th><th class="num">Last</th>
+    <th class="num">P&amp;L</th><th class="num">Stop</th><th class="num">To stop</th><th class="num">Days</th><th class="num">Rank</th><th>Thesis / kill criteria</th></tr>` +
+    p.map((r) => `<tr>
+      <td><b>${esc(r.symbol)}</b><div class="sub mono" style="font-size:11.5px">${esc(r.entry_date)}</div></td>
+      <td>${esc(r.sector)}</td>
+      <td class="num">${r.qty}</td><td class="num">${usd(r.entry_price, 2)}</td><td class="num">${usd(r.last_price, 2)}</td>
+      <td class="num ${cls(r.pnl_pct)}">${spct(r.pnl_pct)}</td><td class="num">${usd(r.stop, 2)}</td>
+      <td class="num">${pct(r.stop / r.last_price - 1)}</td><td class="num">${r.days_held ?? 0}</td><td class="num">${r.rank ?? "—"}</td>
+      <td class="why"><details><summary>why we own it</summary>${esc(r.reason)}<br><br><b>Kill:</b> ${esc(r.kill_criteria)}</details></td>
+    </tr>`).join("");
+}
+
+let TRADES = [], SHOW_ALL = false, FILTER = "all";
+function trades(filter = FILTER) {
+  FILTER = filter;
+  const all = TRADES.filter((r) => filter === "all" || r.side === filter);
+  const t = SHOW_ALL ? all : all.slice(0, 40);
+  $("moreTrades").hidden = SHOW_ALL || all.length <= 40;
+  $("moreTrades").textContent = `Show all ${all.length} trades`;
+  if (!t.length) { $("tradeTable").innerHTML = `<tr><td class="empty">No trades yet.</td></tr>`; return; }
+  $("tradeTable").innerHTML = `<tr><th>Date</th><th>Side</th><th>Symbol</th><th class="num">Qty</th><th class="num">Price</th><th class="num">Value</th><th>Reason</th></tr>` +
+    t.map((r) => `<tr><td class="mono">${esc(r.date)}</td><td><span class="side ${r.side}">${r.side.toUpperCase()}</span></td>
+      <td><b>${esc(r.symbol)}</b></td><td class="num">${r.qty}</td><td class="num">${usd(r.price, 2)}</td><td class="num">${usd(r.value)}</td>
+      <td class="why">${esc(r.reason)}${r.kill_criteria && r.side === "buy" ? `<details><summary>kill criteria</summary>${esc(r.kill_criteria)}</details>` : ""}</td></tr>`).join("");
+}
+
+function backtest(d) {
+  const b = d.backtest;
+  if (!b) { $("btChart").parentNode.innerHTML = `<div class="empty">Run the “Backtest” workflow once to fill this in.</div>`; return; }
+  lineChart($("btChart"), b.curve.map((r) => r.date), [
+    { label: "Strategy", data: b.curve.map((r) => r.equity), borderColor: css("--accent") },
+    { label: d.benchmark_symbol, data: b.curve.map((r) => r.benchmark), borderColor: css("--bench"), borderDash: [4, 3] },
+  ]);
+  const s = b.stats, m = s.benchmark;
+  const row = (k, a, z) => `<tr><td>${k}</td><td class="num">${a}</td><td class="num">${z}</td></tr>`;
+  $("btStats").innerHTML = `<table style="margin-top:14px"><tr><th>${s.start} → ${s.end}</th><th class="num">Strategy</th><th class="num">${d.benchmark_symbol}</th></tr>
+    ${row("CAGR", pct(s.cagr), pct(m.cagr))}${row("Volatility", pct(s.volatility), pct(m.volatility))}
+    ${row("Sharpe (rf=0)", s.sharpe.toFixed(2), m.sharpe.toFixed(2))}${row("Max drawdown", pct(s.max_drawdown), pct(m.max_drawdown))}
+    ${row("Closed trades / win rate", `${s.trades} / ${pct(s.win_rate, 0)}`, "")}
+    ${row("Avg win / avg loss", `${spct(s.avg_win)} / ${spct(s.avg_loss)}`, "")}</table>`;
+}
+
+function ranking(d) {
+  const r = d.ranking || [];
+  if (!r.length) { $("rankTable").innerHTML = `<tr><td class="empty">No ranking yet.</td></tr>`; return; }
+  $("rankTable").innerHTML = `<tr><th class="num">#</th><th>Symbol</th><th class="num">Score</th><th class="num">Mom.</th><th>Trend</th></tr>` +
+    r.slice(0, 20).map((x) => `<tr><td class="num">${x.rank}</td><td><b>${esc(x.symbol)}</b></td><td class="num">${(+x.score).toFixed(2)}</td>
+      <td class="num ${cls(x.momentum)}">${spct(x.momentum, 0)}</td><td>${String(x.trend_ok) === "True" || x.trend_ok === true ? "▲ above 200d" : "▼ below"}</td></tr>`).join("");
+}
+
+function rules(d) {
+  const c = d.config, w = c.weights;
+  const items = [
+    ["1 · Universe", "S&P 500, price ≥ $10, 20-day traded value ≥ $50M; a position may not exceed 1% of a stock's daily traded value."],
+    ["2 · Rank", `Composite z-score: momentum 12-1 (${pct(w.momentum, 0)}), earnings yield (${pct(w.value, 0)}), ROE + gross profit/assets (${pct(w.quality, 0)}). Buy only above the 200-day average.`],
+    ["3 · Size by risk", `Shares = equity × ${pct(c.risk_per_trade, 1)} ÷ (${c.stop_atr_multiple} × ATR20). Caps: ${pct(c.max_position_pct, 0)} per name, ${pct(c.max_sector_pct, 0)} per sector, ${c.max_positions} names.`],
+    ["4 · Exit", `Trailing ${c.stop_atr_multiple}×ATR stop; time stop if still losing after ${c.time_stop_days} days; sell at the monthly rebalance if rank falls below #${c.max_positions * 2}.`],
+  ];
+  $("rules").innerHTML = items.map(([k, v]) => `<div><b>${k}</b>${v}</div>`).join("");
+}
+
+fetch("data.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+  $("broker").textContent = d.broker;
+  $("updated").textContent = "updated " + d.updated;
+  $("benchName").textContent = d.benchmark_symbol;
+  TRADES = d.trades || [];
+  kpis(d); equity(d); positions(d); trades(); backtest(d); ranking(d); rules(d);
+  $("tradeFilters").addEventListener("click", (e) => {
+    if (!e.target.dataset.f) return;
+    [...e.currentTarget.children].forEach((b) => b.classList.toggle("on", b === e.target));
+    trades(e.target.dataset.f);
+  });
+}).catch((err) => { $("updated").textContent = "could not load data.json (" + err.message + ")"; });
+</script>
+</body>
+</html>

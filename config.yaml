@@ -1,0 +1,53 @@
+# ------------------------------------------------------------
+# Trading project — strategy configuration
+# Every rule of the framework lives here so you can tune it
+# without touching the code.
+# ------------------------------------------------------------
+
+mode: paper            # "paper" = Alpaca paper account (needs API keys)
+                       # "sim"   = built-in simulator, no account needed
+starting_equity: 100000
+benchmark: SPY
+
+# 1. Universe & liquidity filter ------------------------------
+universe:
+  source: sp500         # sp500 = live list from Wikipedia, falls back to data/universe.csv
+  min_price: 10         # skip low-priced stocks
+  min_adv_usd: 50000000 # 20-day average daily traded value must exceed $50M
+  max_pct_of_adv: 0.01  # a position may not exceed 1% of a stock's daily traded value
+
+# 2. Factor scores (cross-sectional z-scores, combined by weight)
+factors:
+  momentum: 0.40        # 12-month return skipping the most recent month (12-1)
+  value: 0.30           # earnings yield = 1 / trailing P/E
+  quality: 0.30         # average of ROE and gross profit / total assets
+  winsorize_z: 3.0      # clip extreme z-scores
+  trend_filter: true    # only buy stocks trading above their 200-day average
+
+# 3. Portfolio construction & risk-based sizing ----------------
+portfolio:
+  max_positions: 15
+  risk_per_trade: 0.005   # lose at most 0.5% of equity if the stop is hit
+  max_position_pct: 0.10  # cap per name: 10% of equity
+  max_sector_pct: 0.25    # cap per GICS sector: 25% of equity
+  min_cash_pct: 0.02      # keep a small cash buffer
+
+# 4. Exits ----------------------------------------------------
+exits:
+  atr_period: 20
+  stop_atr_multiple: 2.5    # price stop = entry - 2.5 x ATR(20)
+  trail_stop: true          # ratchet the stop up as price rises (never down)
+  time_stop_days: 40        # exit if a position is still losing after 40 trading days
+  sell_rank_buffer: 2.0     # on rebalance, keep holdings ranked inside top (max_positions x 2)
+  rebalance: monthly        # full re-rank on the first trading day of each month
+
+# 5. Execution & costs ----------------------------------------
+execution:
+  order_type: market        # orders submitted after the close fill at next open
+  slippage_bps: 5           # assumed slippage (used by simulator and backtest)
+  commission_per_share: 0.0
+
+# Backtest (price-only factors — see README for why) ----------
+backtest:
+  start: "2012-01-01"
+  universe_size: 150        # largest names by traded value at each rebalance

@@ -1,0 +1,111 @@
+symbol,sector
+AAPL,Information Technology
+MSFT,Information Technology
+NVDA,Information Technology
+AVGO,Information Technology
+ORCL,Information Technology
+CRM,Information Technology
+ADBE,Information Technology
+AMD,Information Technology
+CSCO,Information Technology
+ACN,Information Technology
+IBM,Information Technology
+INTU,Information Technology
+QCOM,Information Technology
+TXN,Information Technology
+AMAT,Information Technology
+NOW,Information Technology
+MU,Information Technology
+LRCX,Information Technology
+KLAC,Information Technology
+ADI,Information Technology
+PANW,Information Technology
+ANET,Information Technology
+GOOGL,Communication Services
+META,Communication Services
+NFLX,Communication Services
+TMUS,Communication Services
+VZ,Communication Services
+T,Communication Services
+DIS,Communication Services
+CMCSA,Communication Services
+AMZN,Consumer Discretionary
+TSLA,Consumer Discretionary
+HD,Consumer Discretionary
+MCD,Consumer Discretionary
+LOW,Consumer Discretionary
+BKNG,Consumer Discretionary
+NKE,Consumer Discretionary
+SBUX,Consumer Discretionary
+TJX,Consumer Discretionary
+WMT,Consumer Staples
+COST,Consumer Staples
+PG,Consumer Staples
+KO,Consumer Staples
+PEP,Consumer Staples
+PM,Consumer Staples
+MO,Consumer Staples
+MDLZ,Consumer Staples
+CL,Consumer Staples
+BRK-B,Financials
+JPM,Financials
+V,Financials
+MA,Financials
+BAC,Financials
+WFC,Financials
+GS,Financials
+MS,Financials
+AXP,Financials
+SPGI,Financials
+BLK,Financials
+C,Financials
+SCHW,Financials
+PGR,Financials
+CB,Financials
+LLY,Health Care
+UNH,Health Care
+JNJ,Health Care
+ABBV,Health Care
+MRK,Health Care
+TMO,Health Care
+ABT,Health Care
+ISRG,Health Care
+AMGN,Health Care
+DHR,Health Care
+PFE,Health Care
+GILD,Health Care
+VRTX,Health Care
+BSX,Health Care
+SYK,Health Care
+MDT,Health Care
+XOM,Energy
+CVX,Energy
+COP,Energy
+EOG,Energy
+SLB,Energy
+GE,Industrials
+CAT,Industrials
+RTX,Industrials
+HON,Industrials
+UNP,Industrials
+LMT,Industrials
+DE,Industrials
+UPS,Industrials
+BA,Industrials
+ETN,Industrials
+ADP,Industrials
+WM,Industrials
+LIN,Materials
+SHW,Materials
+APD,Materials
+ECL,Materials
+FCX,Materials
+NEM,Materials
+NEE,Utilities
+SO,Utilities
+DUK,Utilities
+CEG,Utilities
+PLD,Real Estate
+AMT,Real Estate
+EQIX,Real Estate
+WELL,Real Estate

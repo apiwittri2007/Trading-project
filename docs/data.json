@@ -1,0 +1,22 @@
+{
+ "updated": "2026-11-10 04:30 UTC",
+ "broker": "not run yet",
+ "last_run": null,
+ "last_rebalance": null,
+ "benchmark_symbol": "SPY",
+ "config": {
+  "max_positions": 15,
+  "risk_per_trade": 0.005,
+  "max_position_pct": 0.1,
+  "max_sector_pct": 0.25,
+  "stop_atr_multiple": 2.5,
+  "time_stop_days": 40,
+  "weights": {
+   "momentum": 0.4,
+   "value": 0.3,
+   "quality": 0.3
+  }
+ },
+ "positions": [],
+ "trades": []
+}
