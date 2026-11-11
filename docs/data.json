@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-10 04:30 UTC",
- "broker": "not run yet",
- "last_run": null,
- "last_rebalance": null,
+ "updated": "2026-11-11 01:28 UTC",
+ "broker": "simulator",
+ "last_run": "2026-11-10",
+ "last_rebalance": "2026-11-10",
  "benchmark_symbol": "SPY",
  "config": {
   "max_positions": 15,
@@ -17,6 +17,19 @@
    "quality": 0.3
   }
  },
+ "equity": [
+  {
+   "date": "2026-11-10",
+   "equity": 100000.0,
+   "benchmark": 100000.0,
+   "cash": 100000.0
+  }
+ ],
+ "live_stats": {
+  "equity": 100000.0,
+  "cash": 100000.0
+ },
  "positions": [],
- "trades": []
+ "trades": [],
+ "ranking": []
 }
