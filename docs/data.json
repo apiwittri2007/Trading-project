@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11 01:28 UTC",
+ "updated": "2026-11-12 02:29 UTC",
  "broker": "simulator",
- "last_run": "2026-11-10",
+ "last_run": "2026-11-11",
  "last_rebalance": "2026-11-10",
  "benchmark_symbol": "SPY",
  "config": {
@@ -23,11 +23,23 @@
    "equity": 100000.0,
    "benchmark": 100000.0,
    "cash": 100000.0
+  },
+  {
+   "date": "2026-11-11",
+   "equity": 100000.0,
+   "benchmark": 99631.984014,
+   "cash": 100000.0
   }
  ],
  "live_stats": {
+  "total_return": 0.0,
+  "cagr": 0.0,
+  "volatility": null,
+  "sharpe": 0.0,
+  "max_drawdown": 0.0,
   "equity": 100000.0,
-  "cash": 100000.0
+  "cash": 100000.0,
+  "benchmark_return": -0.00368
  },
  "positions": [],
  "trades": [],
