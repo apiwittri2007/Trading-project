@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-13 02:05 UTC",
+ "updated": "2026-11-14 01:42 UTC",
  "broker": "simulator",
- "last_run": "2026-11-12",
+ "last_run": "2026-11-13",
  "last_rebalance": "2026-11-10",
  "benchmark_symbol": "SPY",
  "config": {
@@ -35,6 +35,12 @@
    "equity": 100000.0,
    "benchmark": 100945.939908,
    "cash": 100000.0
+  },
+  {
+   "date": "2026-11-13",
+   "equity": 100000.0,
+   "benchmark": 100223.198484,
+   "cash": 100000.0
   }
  ],
  "live_stats": {
@@ -45,9 +51,310 @@
   "max_drawdown": 0.0,
   "equity": 100000.0,
   "cash": 100000.0,
-  "benchmark_return": 0.009459
+  "benchmark_return": 0.002232
  },
  "positions": [],
  "trades": [],
- "ranking": []
+ "ranking": [
+  {
+   "symbol": "MU",
+   "momentum": 2.8069,
+   "value": 0.0916,
+   "quality": 1.3273,
+   "score": 2.0642,
+   "trend_ok": true,
+   "rank": 1,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "STX",
+   "momentum": 1.4532,
+   "value": 0.0346,
+   "quality": 2.5975,
+   "score": 2.0166,
+   "trend_ok": false,
+   "rank": 2,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "MPC",
+   "momentum": 1.4626,
+   "value": 0.1253,
+   "quality": 0.4957,
+   "score": 2.0005,
+   "trend_ok": true,
+   "rank": 3,
+   "sector": "Energy"
+  },
+  {
+   "symbol": "FTNT",
+   "momentum": 1.2146,
+   "value": 0.0239,
+   "quality": 2.15,
+   "score": 1.8648,
+   "trend_ok": false,
+   "rank": 4,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "APA",
+   "momentum": 1.0233,
+   "value": 0.1316,
+   "quality": 0.3974,
+   "score": 1.829,
+   "trend_ok": true,
+   "rank": 5,
+   "sector": "Energy"
+  },
+  {
+   "symbol": "NTAP",
+   "momentum": 0.9539,
+   "value": 0.0387,
+   "quality": 1.4434,
+   "score": 1.4442,
+   "trend_ok": true,
+   "rank": 6,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "ILMN",
+   "momentum": 1.1965,
+   "value": 0.0273,
+   "quality": 0.5204,
+   "score": 1.2631,
+   "trend_ok": true,
+   "rank": 7,
+   "sector": "Health Care"
+  },
+  {
+   "symbol": "VLO",
+   "momentum": 1.5542,
+   "value": null,
+   "quality": null,
+   "score": 1.2,
+   "trend_ok": true,
+   "rank": 8,
+   "sector": "Energy"
+  },
+  {
+   "symbol": "WDC",
+   "momentum": 1.1499,
+   "value": null,
+   "quality": null,
+   "score": 1.1642,
+   "trend_ok": false,
+   "rank": 9,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "ECHO",
+   "momentum": 0.2473,
+   "value": 0.2699,
+   "quality": 0.0909,
+   "score": 1.0608,
+   "trend_ok": false,
+   "rank": 10,
+   "sector": "Communication Services"
+  },
+  {
+   "symbol": "HAS",
+   "momentum": 0.2838,
+   "value": 0.0541,
+   "quality": 2.0232,
+   "score": 1.0126,
+   "trend_ok": true,
+   "rank": 11,
+   "sector": "Consumer Discretionary"
+  },
+  {
+   "symbol": "LRCX",
+   "momentum": 0.7268,
+   "value": 0.0284,
+   "quality": 1.184,
+   "score": 1.0042,
+   "trend_ok": false,
+   "rank": 12,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "FFIV",
+   "momentum": 0.9011,
+   "value": 0.0391,
+   "quality": 0.3312,
+   "score": 0.958,
+   "trend_ok": false,
+   "rank": 13,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "AMAT",
+   "momentum": 0.874,
+   "value": 0.0293,
+   "quality": 0.5014,
+   "score": 0.9177,
+   "trend_ok": false,
+   "rank": 14,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "DVA",
+   "momentum": 0.5304,
+   "value": 0.072,
+   "quality": 0.6782,
+   "score": 0.9151,
+   "trend_ok": false,
+   "rank": 15,
+   "sector": "Health Care"
+  },
+  {
+   "symbol": "ALL",
+   "momentum": 0.1674,
+   "value": 0.1682,
+   "quality": -0.0742,
+   "score": 0.9051,
+   "trend_ok": true,
+   "rank": 16,
+   "sector": "Financials"
+  },
+  {
+   "symbol": "TER",
+   "momentum": 0.9182,
+   "value": null,
+   "quality": null,
+   "score": 0.8973,
+   "trend_ok": false,
+   "rank": 17,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "AMD",
+   "momentum": 1.1717,
+   "value": 0.0085,
+   "quality": -0.0318,
+   "score": 0.8963,
+   "trend_ok": true,
+   "rank": 18,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "MRVL",
+   "momentum": 1.7051,
+   "value": 0.018,
+   "quality": -0.2651,
+   "score": 0.8898,
+   "trend_ok": false,
+   "rank": 19,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "NVDA",
+   "momentum": 0.1236,
+   "value": 0.0455,
+   "quality": 2.4131,
+   "score": 0.8819,
+   "trend_ok": false,
+   "rank": 20,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "CF",
+   "momentum": 0.4425,
+   "value": 0.1151,
+   "quality": -0.0683,
+   "score": 0.8545,
+   "trend_ok": true,
+   "rank": 21,
+   "sector": "Materials"
+  },
+  {
+   "symbol": "EOG",
+   "momentum": 0.4385,
+   "value": 0.1007,
+   "quality": 0.175,
+   "score": 0.8344,
+   "trend_ok": true,
+   "rank": 22,
+   "sector": "Energy"
+  },
+  {
+   "symbol": "CL",
+   "momentum": 0.2011,
+   "value": 0.0262,
+   "quality": 2.8383,
+   "score": 0.824,
+   "trend_ok": true,
+   "rank": 23,
+   "sector": "Consumer Staples"
+  },
+  {
+   "symbol": "DECK",
+   "momentum": 0.026,
+   "value": 0.0854,
+   "quality": 1.6498,
+   "score": 0.8104,
+   "trend_ok": false,
+   "rank": 24,
+   "sector": "Consumer Discretionary"
+  },
+  {
+   "symbol": "CNC",
+   "momentum": 0.9478,
+   "value": 0.0413,
+   "quality": -0.2514,
+   "score": 0.8039,
+   "trend_ok": true,
+   "rank": 25,
+   "sector": "Health Care"
+  },
+  {
+   "symbol": "IT",
+   "momentum": -0.0992,
+   "value": 0.0723,
+   "quality": 2.2442,
+   "score": 0.7954,
+   "trend_ok": true,
+   "rank": 26,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "DVN",
+   "momentum": 0.4337,
+   "value": 0.0948,
+   "quality": 0.0862,
+   "score": 0.7492,
+   "trend_ok": true,
+   "rank": 27,
+   "sector": "Energy"
+  },
+  {
+   "symbol": "FIX",
+   "momentum": 0.5252,
+   "value": 0.0399,
+   "quality": 0.8926,
+   "score": 0.7467,
+   "trend_ok": false,
+   "rank": 28,
+   "sector": "Industrials"
+  },
+  {
+   "symbol": "AAPL",
+   "momentum": 0.254,
+   "value": 0.0253,
+   "quality": 1.966,
+   "score": 0.7363,
+   "trend_ok": true,
+   "rank": 29,
+   "sector": "Information Technology"
+  },
+  {
+   "symbol": "MA",
+   "momentum": 0.1052,
+   "value": 0.0289,
+   "quality": 2.5288,
+   "score": 0.7341,
+   "trend_ok": true,
+   "rank": 30,
+   "sector": "Financials"
+  }
+ ]
 }
