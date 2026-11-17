@@ -1,7 +1,7 @@
 {
   "broker": "simulator",
-  "eligible": 432,
+  "eligible": 498,
   "last_rebalance": "2026-11-10",
-  "last_run": "2026-11-13",
+  "last_run": "2026-11-16",
   "pending_sells": []
 }
