@@ -1,499 +1,499 @@
 symbol,momentum,value,quality,score,trend_ok,rank,sector
-SNDK,4.3344,0.1280,2.6576,2.7216,False,1,Information Technology
-MU,2.7132,0.0916,1.3046,2.0617,False,2,Information Technology
-STX,1.4481,0.0346,2.5662,1.7659,False,3,Information Technology
-MPC,1.4980,0.1253,0.4856,1.7589,True,4,Energy
-APA,1.0373,0.1316,0.3896,1.4283,True,5,Energy
-PSX,1.1638,0.1205,0.2880,1.4009,True,6,Energy
-FTNT,1.0873,0.0239,2.1136,1.3428,False,7,Information Technology
-DELL,2.4033,0.0460,0.1069,1.2617,False,8,Information Technology
-NTAP,0.8881,0.0387,1.4182,1.0351,True,9,Information Technology
-VLO,1.5836,,,1.0307,True,10,Energy
-ECHO,0.2199,0.2699,0.0856,0.9598,False,11,Communication Services
-HAS,0.2921,0.0541,1.9890,0.9305,True,12,Consumer Discretionary
-NVDA,0.1487,0.0455,2.4112,0.8886,False,13,Information Technology
-ALL,0.1966,0.1682,-0.0756,0.8800,True,14,Financials
-IT,-0.1078,0.0723,2.2179,0.8585,True,15,Information Technology
-DECK,0.0314,0.0854,1.6611,0.8412,False,16,Consumer Discretionary
-ILMN,1.1891,0.0273,0.5110,0.8208,True,17,Health Care
-CL,0.2162,0.0262,2.8037,0.7965,True,18,Consumer Staples
-MRVL,1.6076,0.0180,-0.2630,0.7606,False,19,Information Technology
-HPE,1.4476,0.0386,-0.3697,0.7527,True,20,Information Technology
-MA,0.1185,0.0289,2.4986,0.7443,True,21,Financials
-LRCX,0.7294,0.0284,1.1640,0.7440,False,22,Information Technology
-BKNG,-0.1876,0.0575,2.8480,0.7291,False,23,Consumer Discretionary
-DVA,0.5222,0.0720,0.6643,0.7173,False,24,Health Care
-EOG,0.4925,0.1007,0.1706,0.7150,True,25,Energy
-CF,0.4627,0.1151,-0.0694,0.7052,True,26,Materials
-WDC,1.1164,,,0.6864,False,27,Information Technology
-DPZ,-0.2284,0.0552,2.9209,0.6820,True,28,Consumer Discretionary
-AAPL,0.2618,0.0253,1.9325,0.6741,True,29,Information Technology
-DVN,0.4847,0.0948,0.0835,0.6316,False,30,Energy
-FIX,0.6057,0.0399,0.8771,0.6252,False,31,Industrials
-MTD,0.1488,0.0263,1.9917,0.6218,True,32,Health Care
-MAS,0.1951,0.0543,1.3363,0.6069,True,33,Industrials
-EXPE,0.0888,0.0657,1.3170,0.6047,False,34,Consumer Discretionary
-BBY,0.2807,0.0572,1.0971,0.5982,True,35,Consumer Discretionary
-MO,0.3871,0.0627,0.7639,0.5879,True,36,Consumer Staples
-FFIV,0.8505,0.0391,0.3249,0.5860,False,37,Information Technology
-TWLO,0.9709,,,0.5791,True,38,Information Technology
-AMAT,0.8436,0.0293,0.4919,0.5738,False,39,Information Technology
-AES,0.1337,0.1669,-0.7631,0.5667,True,40,Utilities
-TER,0.9201,,,0.5417,False,41,Information Technology
-RL,0.1708,0.0442,1.4025,0.5406,True,42,Consumer Discretionary
-ADBE,-0.2650,0.0754,1.6344,0.5385,False,43,Information Technology
-CLX,-0.1349,0.0520,1.7816,0.5199,True,44,Consumer Staples
-COP,0.6901,0.0688,-0.1100,0.5173,True,45,Energy
-KLAC,0.4344,0.0248,1.2046,0.5153,False,46,Information Technology
-HCA,-0.0239,0.0596,1.4096,0.5128,True,47,Health Care
-GEV,0.6535,0.0471,0.3485,0.5087,False,48,Industrials
-LULU,-0.4277,0.1131,1.1490,0.5073,False,49,Consumer Discretionary
-EIX,-0.0001,0.1570,-0.5039,0.5040,False,50,Utilities
-BE,1.1372,0.0079,0.1146,0.4860,False,51,Industrials
-LVS,-0.4104,0.0607,2.0369,0.4793,False,52,Consumer Discretionary
-LLY,0.2367,0.0214,1.5202,0.4675,True,53,Health Care
-DLTR,0.2039,0.0575,0.8838,0.4610,True,54,Consumer Staples
-BMY,0.2833,0.0717,0.4515,0.4564,True,55,Health Care
-GOOGL,0.2258,0.0653,0.6821,0.4562,False,56,Communication Services
-FAST,0.2726,0.0222,1.4002,0.4528,True,57,Industrials
-ROST,0.4760,0.0343,0.7783,0.4503,False,58,Consumer Discretionary
-GOOG,0.2102,0.0659,0.6821,0.4494,False,59,Communication Services
-EBAY,0.4428,0.0373,0.7669,0.4438,True,60,Consumer Discretionary
-NUE,0.7783,0.0601,-0.3257,0.4340,True,61,Materials
-VTRS,0.7710,,,0.4318,True,62,Health Care
-AMD,1.1324,0.0085,-0.0328,0.4296,True,63,Information Technology
-CNC,0.9163,0.0413,-0.2491,0.4275,True,64,Health Care
-TRGP,0.7633,,,0.4261,True,65,Energy
-TGT,0.7492,,,0.4157,True,66,Consumer Staples
-KEYS,0.8569,0.0242,0.1549,0.4148,False,67,Information Technology
-HPQ,0.2626,0.0905,0.0118,0.4084,True,68,Information Technology
-TXN,0.7329,,,0.4037,True,69,Information Technology
-ITW,0.1384,0.0388,1.2092,0.4022,True,70,Industrials
-FICO,-0.5561,0.0498,3.0000,0.4007,False,71,Information Technology
-OKTA,1.2357,0.0091,-0.3231,0.3977,True,72,Information Technology
-OXY,0.5141,0.0784,-0.2985,0.3850,True,73,Energy
-DXCM,0.4407,0.0316,0.6876,0.3695,True,74,Health Care
-ORLY,-0.0923,0.0360,1.6025,0.3640,True,75,Consumer Discretionary
-FERG,-0.0329,0.0400,1.4128,0.3632,True,76,Industrials
-LOW,-0.1340,0.0511,1.3939,0.3631,True,77,Consumer Discretionary
-PM,0.3694,0.0349,0.7400,0.3613,True,78,Consumer Staples
-NEM,0.3343,0.0728,0.0895,0.3613,False,79,Materials
-CVX,0.5031,0.0639,-0.0661,0.3599,True,80,Energy
-SPG,0.1707,0.0590,0.6564,0.3597,True,81,Real Estate
-CMCSA,-0.1198,0.1263,-0.0778,0.3551,True,82,Communication Services
-RDDT,-0.1757,0.0464,1.5352,0.3526,False,83,Communication Services
-ABNB,0.4333,0.0294,0.6957,0.3511,True,84,Consumer Discretionary
-CIEN,0.7132,0.0151,0.3831,0.3308,False,85,Information Technology
-APP,-0.5215,0.0367,3.0000,0.3296,True,86,Communication Services
-HUM,0.7642,0.0230,0.1149,0.3221,True,87,Health Care
-DG,0.3143,0.0560,0.3215,0.3137,True,88,Consumer Staples
-EXPD,0.4299,0.0404,0.3962,0.3133,True,89,Industrials
-XOM,0.5504,0.0583,-0.1811,0.3093,True,90,Energy
-IDXX,-0.2012,0.0211,1.9146,0.2955,True,91,Health Care
-HD,-0.1350,0.0407,1.4169,0.2949,True,92,Consumer Discretionary
-GRMN,0.4841,0.0354,0.3350,0.2926,True,93,Consumer Discretionary
-CVS,0.1928,0.0962,-0.2728,0.2885,True,94,Health Care
-AMGN,0.3229,0.0369,0.6005,0.2873,True,95,Health Care
-STLD,0.5727,,,0.2856,False,96,Materials
-FIS,-0.4358,0.2214,-0.4073,0.2851,False,97,Financials
-ELV,0.3305,0.0548,0.2370,0.2840,True,98,Health Care
-META,0.1670,0.0466,0.6935,0.2803,False,99,Communication Services
-QCOM,0.0068,0.0719,0.5032,0.2744,False,100,Information Technology
-P,0.4770,0.0069,0.7998,0.2578,True,101,Information Technology
-ZBRA,0.5275,,,0.2523,True,102,Information Technology
-EXE,-0.1942,0.1308,-0.3116,0.2424,False,103,Energy
-EME,0.1684,0.0519,0.4829,0.2383,False,104,Industrials
-EG,0.2092,0.1123,-0.7595,0.2302,True,105,Financials
-KMB,0.0625,0.0481,0.7281,0.2278,True,106,Consumer Staples
-PEP,-0.0566,0.0552,0.8022,0.2210,True,107,Consumer Staples
-FCX,0.7313,0.0383,-0.3848,0.2166,False,108,Materials
-ACGL,0.0917,0.1120,-0.5754,0.2130,True,109,Financials
-ODFL,0.3945,0.0327,0.3428,0.2093,False,110,Industrials
-OKE,0.3949,0.0730,-0.4258,0.2080,True,111,Energy
-AMP,0.1007,0.0854,-0.1080,0.2052,True,112,Financials
-HIG,0.0289,0.1089,-0.4187,0.2046,True,113,Financials
-MSCI,0.0068,0.0286,1.1295,0.1989,True,114,Financials
-HON,0.0283,0.0886,-0.0546,0.1963,False,115,Industrials
-LYB,0.4948,0.0660,-0.5219,0.1925,False,116,Materials
-WST,0.4435,,,0.1903,True,117,Health Care
-GL,0.2778,0.0923,-0.6252,0.1861,False,118,Financials
-COR,-0.0600,0.0513,0.7891,0.1845,True,119,Health Care
-STT,0.4343,,,0.1836,True,120,Financials
-FDX,0.3858,0.0575,-0.1786,0.1830,True,121,Industrials
-GWW,0.4317,,,0.1816,True,122,Industrials
-SWK,0.4310,,,0.1811,True,123,Industrials
-ADM,0.4452,0.0722,-0.5821,0.1782,False,124,Consumer Staples
-AZO,-0.1829,0.0471,1.0651,0.1703,True,125,Consumer Discretionary
-MNST,0.2867,0.0242,0.6041,0.1693,True,126,Consumer Staples
-CAT,0.3282,0.0424,0.1739,0.1661,False,127,Industrials
-WAB,0.4090,,,0.1649,True,128,Industrials
-CPT,0.0092,0.1080,-0.4706,0.1632,False,129,Real Estate
-CASY,0.2873,0.0291,0.4730,0.1544,False,130,Consumer Staples
-LMT,0.2424,0.0462,0.2237,0.1501,True,131,Industrials
-CTAS,0.1486,0.0223,0.8505,0.1490,True,132,Industrials
-AMZN,0.0523,0.0465,0.5572,0.1418,True,133,Consumer Discretionary
-CTSH,-0.0821,0.0851,0.0807,0.1413,True,134,Information Technology
-TRV,0.3760,,,0.1406,True,135,Financials
-GDDY,-0.1916,0.0640,0.6838,0.1402,True,136,Information Technology
-KO,0.3564,0.0347,0.1927,0.1382,True,137,Consumer Staples
-MKC,-0.2735,0.1178,-0.1872,0.1370,False,138,Consumer Staples
-DRI,0.2725,0.0450,0.1464,0.1337,True,139,Consumer Discretionary
-MSI,0.2221,0.0232,0.6501,0.1321,True,140,Information Technology
-WSM,0.3598,,,0.1286,True,141,Consumer Discretionary
-CSCO,0.4135,0.0330,0.0857,0.1263,False,142,Information Technology
-PLTR,0.0807,0.0082,1.1856,0.1256,True,143,Information Technology
-LII,-0.2406,0.0630,0.7556,0.1246,False,144,Industrials
-UNP,0.3325,,,0.1086,True,145,Industrials
-KR,-0.0136,0.0259,0.9655,0.1005,True,146,Consumer Staples
-JBL,0.3803,0.0377,-0.0052,0.1005,False,147,Information Technology
-SHW,-0.0014,0.0306,0.8459,0.0973,True,148,Materials
-CCL,0.0067,0.0740,0.0020,0.0949,True,149,Consumer Discretionary
-HAL,0.2649,0.0723,-0.4634,0.0920,False,150,Energy
-HST,0.4727,0.0524,-0.4902,0.0884,True,151,Real Estate
-FOX,-0.0193,0.0775,-0.0499,0.0815,True,152,Communication Services
-CMG,-0.0475,0.0292,0.9134,0.0796,True,153,Consumer Discretionary
-MCO,-0.0030,0.0318,0.7721,0.0768,True,154,Financials
-USB,0.2891,,,0.0766,True,155,Financials
-OTIS,-0.1956,0.0519,0.7573,0.0764,True,156,Industrials
-PGR,0.0428,0.0850,-0.3259,0.0751,True,157,Financials
-ANET,0.3583,0.0190,0.3250,0.0750,True,158,Information Technology
-AOS,-0.0889,0.0554,0.4677,0.0686,True,159,Industrials
-STZ,0.0343,0.0775,-0.1848,0.0686,True,160,Consumer Staples
-MPWR,0.3188,0.0123,0.5060,0.0675,False,161,Information Technology
-PFG,0.3302,0.0783,-0.7688,0.0658,True,162,Financials
-MRNA,7.7344,-0.0283,-1.5670,0.0655,True,163,Health Care
-INTC,1.5021,-0.0376,-0.8048,0.0638,False,164,Information Technology
-ABBV,0.2655,0.0197,0.4419,0.0576,True,165,Health Care
-VRT,0.2628,,,0.0572,False,166,Industrials
-CRWD,0.7169,0.0003,-0.0515,0.0557,True,167,Information Technology
-ADI,0.6856,0.0206,-0.3860,0.0522,True,168,Information Technology
-MRK,0.6167,0.0067,-0.0038,0.0479,True,169,Health Care
-PPG,0.1149,0.0570,-0.0053,0.0468,True,170,Materials
-CDW,0.0463,0.0495,0.2570,0.0432,True,171,Information Technology
-WELL,0.2424,,,0.0421,True,172,Real Estate
-JBHT,0.3833,0.0311,-0.0392,0.0416,False,173,Industrials
-GLW,0.6167,0.0205,-0.2814,0.0414,False,174,Information Technology
-CI,0.1412,0.0752,-0.4156,0.0411,True,175,Health Care
-UNH,0.2394,,,0.0399,True,176,Health Care
-CPAY,0.4123,0.0394,-0.2572,0.0388,True,177,Financials
-NTRS,0.3113,0.0713,-0.6710,0.0387,True,178,Financials
-HSY,-0.0121,0.0501,0.3452,0.0387,False,179,Consumer Staples
-ADP,0.1676,0.0368,0.2537,0.0380,True,180,Industrials
-NCLH,-0.1891,0.0962,-0.2004,0.0350,False,181,Consumer Discretionary
-WMB,0.2326,,,0.0349,False,182,Energy
-URI,0.2284,,,0.0318,True,183,Industrials
-MET,0.2947,0.0743,-0.7175,0.0303,True,184,Financials
-TDY,0.2240,,,0.0285,False,185,Information Technology
-ROK,0.1376,0.0309,0.3983,0.0283,False,186,Industrials
-NXPI,0.1598,0.0472,0.0442,0.0269,True,187,Information Technology
-FOXA,-0.0106,0.0691,-0.0499,0.0264,True,188,Communication Services
-CMI,0.1532,0.0517,-0.0356,0.0248,False,189,Industrials
-PTC,0.1055,0.0455,0.1715,0.0243,True,190,Information Technology
-VRSN,0.2171,,,0.0235,True,191,Information Technology
-LUV,0.2169,,,0.0233,True,192,Industrials
-MTB,0.1882,0.0869,-0.7728,0.0229,False,193,Financials
-C,0.2530,0.0826,-0.8186,0.0212,False,194,Financials
-BEN,0.4586,0.0543,-0.6727,0.0211,True,195,Financials
-NDSN,0.3996,0.0300,-0.1045,0.0199,True,196,Industrials
-APH,0.1816,0.0291,0.3244,0.0192,True,197,Information Technology
-ADSK,-0.1927,0.0297,1.0248,0.0191,True,198,Information Technology
-TPR,0.2081,,,0.0168,False,199,Consumer Discretionary
-CB,0.2257,0.0770,-0.6759,0.0156,True,200,Financials
-GEN,-0.0778,0.0643,0.1411,0.0154,True,201,Information Technology
-RF,0.1442,0.0890,-0.7499,0.0150,True,202,Financials
-V,0.2052,,,0.0147,True,203,Financials
-PNC,0.2204,0.0809,-0.7492,0.0120,True,204,Financials
-CBOE,0.2206,0.0381,0.0621,0.0118,True,205,Financials
-HSIC,0.1778,0.0413,0.0811,0.0113,True,206,Health Care
-ALGN,0.0566,0.0399,0.3379,0.0112,False,207,Health Care
-FLEX,0.5196,0.0352,-0.4536,0.0110,False,208,Information Technology
-CINF,0.0548,0.0898,-0.6057,0.0105,True,209,Financials
-TMO,0.1936,,,0.0061,True,210,Health Care
-CSX,0.4136,0.0370,-0.3086,0.0023,True,211,Industrials
-KEY,0.1812,0.0849,-0.7752,0.0019,False,212,Financials
-RCL,0.1074,0.0504,0.0160,0.0013,True,213,Consumer Discretionary
-COHR,0.6639,0.0206,-0.4809,-0.0006,False,214,Information Technology
-JNJ,0.3384,0.0235,0.0683,-0.0060,True,215,Health Care
-PAYX,0.0325,0.0437,0.2595,-0.0089,True,216,Industrials
-PG,0.1010,0.0396,0.2015,-0.0110,True,217,Consumer Staples
-WMT,0.1684,,,-0.0124,True,218,Consumer Staples
-PRU,0.1317,0.0892,-0.8119,-0.0169,True,219,Financials
-IEX,0.4293,0.0300,-0.2558,-0.0169,True,220,Industrials
-VZ,0.1620,,,-0.0171,True,221,Communication Services
-FANG,0.4367,0.0411,-0.4804,-0.0175,False,222,Energy
-PYPL,-0.1224,0.0881,-0.3095,-0.0175,True,223,Financials
-DAL,0.2715,0.0549,-0.4300,-0.0182,True,224,Industrials
-SBUX,0.1570,,,-0.0208,True,225,Consumer Discretionary
-SNPS,0.1541,,,-0.0230,True,226,Information Technology
-WAT,0.1520,,,-0.0245,True,227,Health Care
-VRTX,0.1501,,,-0.0259,True,228,Health Care
-CFG,0.2508,0.0757,-0.8087,-0.0272,False,229,Financials
-EL,0.1791,0.0089,0.5917,-0.0275,True,230,Consumer Staples
-T,-0.0463,0.0840,-0.4104,-0.0306,False,231,Communication Services
-SOLV,0.1408,,,-0.0328,True,232,Health Care
-VTR,0.1390,,,-0.0341,True,233,Real Estate
-DDOG,0.3288,0.0039,0.3713,-0.0395,False,234,Information Technology
-MMM,-0.0166,0.0355,0.4267,-0.0405,True,235,Industrials
-AIZ,0.2659,0.0656,-0.6794,-0.0405,True,236,Financials
-RMD,-0.0444,0.0460,0.2785,-0.0409,True,237,Health Care
-WM,0.1278,,,-0.0423,True,238,Industrials
-AVY,0.0165,0.0491,0.1000,-0.0428,True,239,Materials
-SYY,0.1270,,,-0.0429,False,240,Consumer Staples
-FDS,0.1048,0.0435,0.0350,-0.0440,True,241,Financials
-BF-B,0.0654,0.0515,-0.0452,-0.0455,True,242,Consumer Staples
-BKR,0.1851,0.0589,-0.4170,-0.0472,False,243,Energy
-PWR,0.4812,0.0182,-0.2111,-0.0483,False,244,Industrials
-ALLE,-0.0376,0.0421,0.3116,-0.0521,True,245,Industrials
-TT,0.1140,,,-0.0525,False,246,Industrials
-CRL,0.7738,0.0027,-0.4853,-0.0529,True,247,Health Care
-DGX,0.2739,0.0388,-0.2228,-0.0540,True,248,Health Care
-NWSA,0.1518,0.0417,-0.0482,-0.0547,False,249,Communication Services
-ULTA,0.1106,,,-0.0550,True,250,Consumer Discretionary
-PHM,-0.0329,0.0723,-0.2836,-0.0578,True,251,Consumer Discretionary
-CHD,0.2466,0.0291,0.0011,-0.0586,True,252,Consumer Staples
-ACN,-0.0455,0.0535,0.0923,-0.0595,True,253,Information Technology
-ON,0.4964,0.0232,-0.3883,-0.0688,False,254,Information Technology
-KMI,0.3082,0.0513,-0.5657,-0.0702,False,255,Energy
-MGM,-0.1286,0.0777,-0.2436,-0.0730,False,256,Consumer Discretionary
-NFLX,-0.3889,0.0536,0.7049,-0.0737,False,257,Communication Services
-BNY,0.3077,0.0591,-0.7233,-0.0739,True,258,Financials
-TFC,0.0829,,,-0.0755,True,259,Financials
-UPS,0.0825,,,-0.0758,True,260,Industrials
-VMRK,0.0812,,,-0.0767,True,261,Real Estate
-SNA,0.1220,0.0514,-0.2321,-0.0773,False,262,Industrials
-NVR,-0.1841,0.0614,0.1564,-0.0786,False,263,Consumer Discretionary
-CVNA,-0.0766,0.0282,0.5717,-0.0822,True,264,Consumer Discretionary
-TPL,0.0710,,,-0.0842,False,265,Energy
-MSFT,0.0598,0.0368,0.1412,-0.0855,True,266,Information Technology
-RJF,-0.0134,0.0713,-0.3775,-0.0873,True,267,Financials
-VEEV,0.0640,,,-0.0894,True,268,Health Care
-CRM,0.0096,0.0501,-0.0285,-0.0901,True,269,Information Technology
-ZBH,0.0599,,,-0.0924,True,270,Health Care
-SLB,0.3966,0.0404,-0.5915,-0.0948,False,271,Energy
-GS,0.1156,0.0750,-0.7312,-0.1017,False,272,Financials
-TSN,0.0466,,,-0.1022,True,273,Consumer Staples
-A,0.1864,0.0287,0.0092,-0.1031,True,274,Health Care
-EQT,-0.0908,0.0801,-0.4402,-0.1038,False,275,Energy
-JCI,0.2207,0.0326,-0.1350,-0.1045,False,276,Industrials
-COST,0.0739,0.0191,0.3996,-0.1047,True,277,Consumer Staples
-DIS,0.0426,,,-0.1052,True,278,Communication Services
-MCHP,0.3827,0.0214,-0.2452,-0.1104,False,279,Information Technology
-FSLR,-0.3272,0.0971,-0.3319,-0.1112,False,280,Information Technology
-SO,0.0331,,,-0.1121,True,281,Utilities
-GNRC,0.2461,0.0261,-0.0828,-0.1133,False,282,Industrials
-VLTO,0.0309,,,-0.1137,True,283,Industrials
-DHI,-0.0193,0.0686,-0.3835,-0.1139,False,284,Consumer Discretionary
-UDR,0.0286,,,-0.1155,True,285,Real Estate
-YUM,0.0247,,,-0.1183,True,286,Consumer Discretionary
-TROW,0.0247,,,-0.1183,True,287,Financials
-RVTY,0.6376,0.0142,-0.6161,-0.1194,True,288,Health Care
-CDNS,0.0111,0.0153,0.5527,-0.1196,False,289,Information Technology
-MDLZ,0.1617,0.0475,-0.3503,-0.1221,True,290,Consumer Staples
-JKHY,-0.0590,0.0414,0.1794,-0.1243,True,291,Financials
-TJX,0.0157,,,-0.1250,False,292,Consumer Discretionary
-PCG,-0.2035,0.1031,-0.7156,-0.1250,False,293,Utilities
-JPM,0.1189,0.0694,-0.6997,-0.1284,True,294,Financials
-SYF,0.0110,,,-0.1284,False,295,Financials
-AVGO,-0.0258,0.0227,0.4577,-0.1293,False,296,Information Technology
-WRB,0.0073,,,-0.1311,True,297,Financials
-WFC,0.0065,,,-0.1317,True,298,Financials
-WEC,0.0062,,,-0.1320,True,299,Utilities
-CHRW,-0.0662,0.0416,0.1677,-0.1323,False,300,Industrials
-MAR,0.3613,0.0234,-0.2999,-0.1330,True,301,Consumer Discretionary
-EMR,0.2767,0.0287,-0.2453,-0.1352,True,302,Industrials
-LDOS,-0.3399,0.0836,-0.1141,-0.1352,False,303,Industrials
-HWM,0.0993,0.0228,0.2012,-0.1360,False,304,Industrials
-REGN,0.1436,0.0472,-0.3470,-0.1369,True,305,Health Care
-HUBB,0.0664,0.0384,-0.0420,-0.1394,False,306,Industrials
-PH,0.1512,0.0299,-0.0441,-0.1404,False,307,Industrials
-ROL,-0.4128,0.0283,1.0542,-0.1414,False,308,Industrials
-PODD,-0.5759,0.0408,1.1247,-0.1427,False,309,Health Care
-UAL,-0.0110,,,-0.1447,True,310,Industrials
-WTW,-0.0144,,,-0.1472,True,311,Financials
-XEL,-0.0182,,,-0.1500,True,312,Utilities
-TKO,-0.0238,,,-0.1541,False,313,Communication Services
-NKE,-0.4191,0.0543,0.5422,-0.1542,False,314,Consumer Discretionary
-MS,0.1083,0.0662,-0.6844,-0.1543,False,315,Financials
-GEHC,-0.0581,0.0573,-0.2046,-0.1560,True,316,Health Care
-KDP,0.3231,0.0290,-0.4082,-0.1617,True,317,Consumer Staples
-INCY,0.0727,0.0160,0.3130,-0.1617,True,318,Health Care
-COF,-0.0550,0.0828,-0.7124,-0.1632,False,319,Financials
-AIG,0.0559,0.0740,-0.7569,-0.1634,True,320,Financials
-HLT,0.2813,0.0197,-0.1562,-0.1635,True,321,Consumer Discretionary
-BAC,-0.0104,0.0827,-0.7985,-0.1645,False,322,Financials
-DOV,0.0870,0.0403,-0.1863,-0.1663,False,323,Industrials
-PANW,0.6702,0.0012,-0.5537,-0.1668,True,324,Information Technology
-AME,0.2861,0.0296,-0.3654,-0.1682,True,325,Industrials
-LH,0.1990,0.0328,-0.2940,-0.1812,True,326,Health Care
-FITB,0.2264,0.0548,-0.7654,-0.1823,True,327,Financials
-ED,0.1489,0.0523,-0.5708,-0.1823,True,328,Utilities
-TXT,-0.0669,,,-0.1859,False,329,Industrials
-NOC,-0.0532,0.0575,-0.2954,-0.1859,False,330,Industrials
-BG,0.1235,0.0580,-0.6460,-0.1879,False,331,Consumer Staples
-MRSH,0.0469,0.0403,-0.1675,-0.1890,True,332,Financials
-HBAN,0.0094,0.0768,-0.7892,-0.1894,False,333,Financials
-PKG,0.2154,0.0321,-0.3364,-0.1908,True,334,Materials
-DE,0.3713,0.0260,-0.5180,-0.1909,True,335,Industrials
-ECL,0.1147,0.0239,0.0047,-0.1928,True,336,Materials
-BALL,0.3367,0.0302,-0.5461,-0.1962,True,337,Materials
-VMC,-0.0879,,,-0.2014,False,338,Materials
-BIIB,0.4123,0.0091,-0.3032,-0.2014,True,339,Health Care
-TEL,-0.0903,,,-0.2031,True,340,Information Technology
-IQV,0.1939,0.0299,-0.2896,-0.2041,True,341,Health Care
-WY,-0.0943,,,-0.2060,False,342,Real Estate
-ETN,0.1143,0.0278,-0.1022,-0.2061,False,343,Industrials
-SMCI,-0.0986,,,-0.2092,False,344,Information Technology
-PCAR,0.1721,0.0485,-0.6170,-0.2111,False,345,Industrials
-L,0.0612,0.0648,-0.7164,-0.2111,True,346,Financials
-PNW,0.1970,0.0493,-0.6895,-0.2147,True,347,Utilities
-VST,-0.1087,,,-0.2167,False,348,Utilities
-VRSK,-0.1142,,,-0.2207,True,349,Industrials
-AON,-0.1623,0.0543,-0.1210,-0.2222,True,350,Financials
-Q,0.3465,0.0210,-0.4583,-0.2227,False,351,Information Technology
-TSLA,-0.1176,,,-0.2232,False,352,Consumer Discretionary
-BR,-0.2061,0.0468,0.0936,-0.2261,True,353,Industrials
-MCK,0.1921,0.0359,-0.4578,-0.2269,True,354,Health Care
-AMCR,0.0843,0.0525,-0.5762,-0.2304,True,355,Materials
-MDT,0.0182,0.0401,-0.2170,-0.2311,True,356,Health Care
-LIN,0.1786,0.0286,-0.3055,-0.2314,True,357,Materials
-GM,0.1780,0.0514,-0.7368,-0.2317,True,358,Consumer Discretionary
-EVRG,0.1292,0.0508,-0.6385,-0.2337,True,359,Utilities
-TTWO,-0.1358,,,-0.2367,False,360,Communication Services
-STE,-0.1377,,,-0.2381,True,361,Health Care
-TECH,0.2013,0.0150,-0.1122,-0.2397,True,362,Health Care
-TDG,-0.1401,,,-0.2398,False,363,Industrials
-BRK-B,0.0369,0.0607,-0.6673,-0.2401,True,364,Financials
-RSG,0.1374,0.0290,-0.2572,-0.2404,True,365,Industrials
-AXP,-0.1305,0.0549,-0.2434,-0.2416,False,366,Financials
-WDAY,-0.1462,,,-0.2443,True,367,Information Technology
-NEE,-0.0226,0.0645,-0.6429,-0.2465,False,368,Utilities
-FE,0.0409,0.0445,-0.3844,-0.2467,True,369,Utilities
-FTV,0.1171,0.0311,-0.2831,-0.2498,True,370,Industrials
-IBM,-0.2230,0.0472,0.0393,-0.2568,False,371,Information Technology
-SCHW,-0.0233,0.0631,-0.6409,-0.2572,False,372,Financials
-NSC,0.1677,0.0361,-0.4964,-0.2585,True,373,Industrials
-AMT,0.0645,0.0373,-0.3306,-0.2611,True,374,Real Estate
-VICI,-0.1706,,,-0.2623,False,375,Real Estate
-BDX,0.2951,0.0236,-0.5169,-0.2644,True,376,Health Care
-FRT,0.1356,0.0442,-0.6048,-0.2645,True,377,Real Estate
-GD,0.0186,0.0463,-0.4231,-0.2651,True,378,Industrials
-CAH,0.2446,0.0279,-0.5107,-0.2678,True,379,Health Care
-MCD,-0.1897,0.0460,-0.0363,-0.2705,False,380,Consumer Discretionary
-PFE,0.2062,0.0238,-0.3680,-0.2708,True,381,Health Care
-UHS,-0.1831,,,-0.2715,True,382,Health Care
-DASH,-0.0310,0.0135,0.2721,-0.2725,False,383,Consumer Discretionary
-LYV,0.2462,-0.0006,0.0039,-0.2761,True,384,Communication Services
-NDAQ,0.0890,0.0334,-0.3441,-0.2774,True,385,Financials
-BX,-0.2119,0.0368,0.1606,-0.2780,False,386,Financials
-XYZ,0.2502,0.0089,-0.1893,-0.2785,True,387,Financials
-IR,0.0215,0.0415,-0.3815,-0.2819,True,388,Industrials
-AFL,0.0649,0.0539,-0.7007,-0.2827,True,389,Financials
-SYK,-0.2022,,,-0.2856,False,390,Health Care
-APTV,-0.4465,0.0908,-0.4391,-0.2866,False,391,Consumer Discretionary
-PSA,0.1326,0.0283,-0.3639,-0.2899,True,392,Real Estate
-SBAC,-0.0163,0.0487,-0.4687,-0.2905,False,393,Real Estate
-INTU,-0.4928,0.0480,0.4453,-0.2919,False,394,Information Technology
-AEE,0.0413,0.0508,-0.6371,-0.2984,True,395,Utilities
-KIM,0.1749,0.0418,-0.7245,-0.3000,True,396,Real Estate
-HII,-0.1156,0.0591,-0.5081,-0.3024,False,397,Industrials
-TYL,-0.2262,,,-0.3033,True,398,Information Technology
-AEP,0.0706,0.0474,-0.6414,-0.3035,True,399,Utilities
-TRMB,-0.2280,,,-0.3046,False,400,Information Technology
-NRG,-0.3695,0.0587,-0.0228,-0.3046,False,401,Utilities
-IBKR,0.2387,0.0318,-0.6692,-0.3051,False,402,Financials
-EW,0.0057,0.0163,0.0655,-0.3056,True,403,Health Care
-IRM,0.2728,0.0136,-0.3917,-0.3056,False,404,Real Estate
-GE,0.0373,0.0255,-0.1705,-0.3057,True,405,Industrials
-GPC,0.0868,0.0021,0.1781,-0.3061,True,406,Consumer Discretionary
-UBER,-0.2335,,,-0.3087,False,407,Industrials
-DUK,0.0173,0.0530,-0.6632,-0.3100,True,408,Utilities
-LITE,2.6328,-0.1383,-1.5771,-0.3113,False,409,Information Technology
-EXC,-0.0164,0.0561,-0.6670,-0.3131,True,410,Utilities
-TMUS,-0.2429,,,-0.3156,False,411,Communication Services
-CRH,-0.2392,0.0552,-0.2376,-0.3178,False,412,Materials
-ETR,0.1334,0.0390,-0.6437,-0.3194,True,413,Utilities
-LNT,0.0371,0.0488,-0.6613,-0.3256,True,414,Utilities
-ERIE,-0.1313,0.0405,-0.1944,-0.3296,True,415,Financials
-FISV,-0.2631,,,-0.3305,True,416,Financials
-ROP,-0.1370,0.0529,-0.4274,-0.3327,True,417,Information Technology
-D,0.0888,0.0445,-0.7080,-0.3368,True,418,Utilities
-ES,-0.0509,0.0537,-0.6212,-0.3384,True,419,Utilities
-EQIX,0.2804,0.0156,-0.5433,-0.3443,True,420,Real Estate
-XYL,-0.2836,,,-0.3456,False,421,Industrials
-RTX,0.1313,0.0306,-0.5620,-0.3515,True,422,Industrials
-CBRE,-0.1312,0.0347,-0.1441,-0.3522,False,423,Real Estate
-CNP,0.0478,0.0424,-0.6310,-0.3524,False,424,Utilities
-ICE,0.0721,0.0406,-0.6441,-0.3528,True,425,Financials
-PPL,-0.0066,0.0492,-0.6637,-0.3557,True,426,Utilities
-SRE,-0.0683,0.0597,-0.7652,-0.3632,False,427,Utilities
-ATO,-0.0379,0.0478,-0.6188,-0.3717,True,428,Utilities
-REG,0.0922,0.0366,-0.6762,-0.3800,True,429,Real Estate
-DTE,-0.0256,0.0470,-0.6552,-0.3827,True,430,Utilities
-ZTS,-0.3346,,,-0.3832,False,431,Health Care
-SJM,0.2029,0.0161,-0.5076,-0.3840,True,432,Consumer Staples
-CHTR,-0.4624,0.0781,-0.4182,-0.3841,False,433,Communication Services
-NI,0.0133,0.0428,-0.6542,-0.3841,True,434,Utilities
-AKAM,-0.0097,0.0296,-0.3668,-0.3863,False,435,Information Technology
-NOW,-0.1646,0.0135,0.2255,-0.3890,False,436,Information Technology
-SPGI,-0.0891,0.0352,-0.3313,-0.3899,True,437,Financials
-BLK,0.0832,0.0358,-0.6694,-0.3899,True,438,Financials
-AWK,0.0477,0.0386,-0.6555,-0.3901,True,439,Utilities
-EFX,-0.2121,0.0328,-0.0581,-0.3925,True,440,Industrials
-COO,-0.1925,0.0462,-0.3526,-0.3935,False,441,Health Care
-CME,0.0767,0.0386,-0.7395,-0.4013,True,442,Financials
-SW,0.2081,0.0204,-0.6555,-0.4055,False,443,Materials
-DHR,0.0431,0.0257,-0.4483,-0.4083,True,444,Health Care
-IFF,0.3747,0.0042,-0.6792,-0.4110,True,445,Materials
-SWKS,0.2070,0.0130,-0.5296,-0.4120,True,446,Information Technology
-EXR,0.1081,0.0309,-0.6867,-0.4144,True,447,Real Estate
-INVH,0.0015,0.0424,-0.7049,-0.4154,False,448,Real Estate
-WYNN,-0.3797,,,-0.4164,False,449,Consumer Discretionary
-CEG,-0.1872,0.0453,-0.4228,-0.4240,True,450,Utilities
-TSCO,-0.3955,,,-0.4281,True,451,Consumer Discretionary
-DOC,0.1519,0.0265,-0.7343,-0.4330,True,452,Real Estate
-ABT,-0.1684,0.0245,-0.0942,-0.4351,True,453,Health Care
-ORCL,-0.4027,0.0497,-0.1260,-0.4352,False,454,Information Technology
-BXP,-0.1248,0.0526,-0.7235,-0.4405,True,455,Real Estate
-ISRG,-0.2455,0.0184,0.1462,-0.4436,True,456,Health Care
-PLD,0.0460,0.0349,-0.7226,-0.4447,False,457,Real Estate
-J,-0.0693,0.0191,-0.2051,-0.4449,True,458,Industrials
-GILD,0.2784,-0.0184,-0.1611,-0.4475,True,459,Health Care
-PEG,-0.1026,0.0477,-0.7141,-0.4572,False,460,Utilities
-CPRT,-0.3304,0.0482,-0.2938,-0.4581,True,461,Industrials
-BRO,-0.1266,0.0443,-0.6067,-0.4581,True,462,Financials
-LHX,-0.1239,0.0388,-0.5242,-0.4641,False,463,Industrials
-CMS,-0.0489,0.0402,-0.7074,-0.4697,False,464,Utilities
-LEN,-0.3500,0.0612,-0.5559,-0.4789,False,465,Consumer Discretionary
-ESS,0.1045,0.0197,-0.6661,-0.4916,True,466,Real Estate
-BSX,-0.5772,0.0525,-0.0177,-0.5010,False,467,Health Care
-BA,-0.0225,0.0555,-1.1297,-0.5017,False,468,Industrials
-HRL,-0.0497,0.0282,-0.5882,-0.5120,True,469,Consumer Staples
-ALB,-0.1571,0.0432,-0.6725,-0.5137,False,470,Materials
-DD,0.0899,0.0184,-0.6773,-0.5158,True,471,Industrials
-OMC,0.1484,0.0111,-0.6690,-0.5231,True,472,Communication Services
-PNR,-0.4944,0.0529,-0.2458,-0.5254,False,473,Industrials
-O,0.0407,0.0245,-0.7580,-0.5387,False,474,Real Estate
-AJG,0.0046,0.0232,-0.6714,-0.5412,True,475,Financials
-DLR,0.1448,0.0131,-0.7527,-0.5439,False,476,Real Estate
-MAA,-0.0624,0.0279,-0.6490,-0.5474,False,477,Real Estate
-APD,0.1693,0.0076,-0.7081,-0.5490,True,478,Materials
-GPN,0.1236,0.0056,-0.6492,-0.5745,True,479,Financials
-HOOD,-0.1865,0.0257,-0.4662,-0.5845,False,480,Financials
-CCI,-0.0454,0.0280,-0.9160,-0.6382,True,481,Real Estate
-MLM,-0.1635,0.0256,-0.6711,-0.6478,False,482,Materials
-AXON,-0.2997,0.0099,-0.2075,-0.6836,False,483,Industrials
-ARES,-0.2125,0.0088,-0.4395,-0.7169,True,484,Financials
-BAX,0.3545,-0.0459,-0.5974,-0.7629,True,485,Health Care
-IVZ,0.2134,-0.0241,-0.7928,-0.7823,True,486,Financials
-DOW,0.3590,-0.0396,-0.8244,-0.8014,False,487,Materials
-CSGP,-0.5285,0.0142,-0.2800,-0.8485,False,488,Real Estate
-KKR,-0.2809,0.0341,-1.2367,-0.8913,False,489,Financials
-APO,-0.1251,-0.0146,-0.9304,-1.0150,False,490,Financials
-CARR,0.0086,-0.0405,-0.7537,-1.0385,False,491,Industrials
-COIN,-0.3884,-0.0203,-0.6458,-1.1411,False,492,Financials
-GIS,-0.2517,-0.0479,-0.5810,-1.2181,False,493,Consumer Staples
-KHC,0.0137,-0.1207,-0.8279,-1.3469,True,494,Consumer Staples
-IP,-0.0568,-0.1855,-0.7428,-1.3658,False,495,Materials
-F,-0.0316,-0.1616,-1.0627,-1.4714,False,496,Consumer Discretionary
-ARE,-0.1554,-0.1866,-0.9196,-1.5071,False,497,Real Estate
-MOS,-0.2364,-0.1553,-0.9932,-1.5954,False,498,Materials
+SNDK,4.3947,0.1280,2.6576,2.7216,False,1,Information Technology
+MU,2.6702,0.0916,1.3046,2.0617,False,2,Information Technology
+STX,1.5743,0.0346,2.5662,1.8302,False,3,Information Technology
+MPC,1.4083,0.1253,0.4856,1.6674,True,4,Energy
+APA,1.0543,0.1316,0.3896,1.4226,True,5,Energy
+PSX,1.1020,0.1205,0.2880,1.3362,True,6,Energy
+FTNT,1.0836,0.0239,2.1136,1.3213,False,7,Information Technology
+DELL,2.4360,0.0460,0.1069,1.2617,False,8,Information Technology
+NTAP,0.9240,0.0387,1.4182,1.0460,True,9,Information Technology
+ECHO,0.2789,0.2699,0.0856,1.0007,False,10,Communication Services
+HAS,0.3083,0.0541,1.9890,0.9392,True,11,Consumer Discretionary
+VLO,1.4345,,,0.8950,True,12,Energy
+NVDA,0.1443,0.0455,2.4112,0.8855,False,13,Information Technology
+IT,-0.1009,0.0723,2.2179,0.8687,True,14,Information Technology
+ALL,0.1742,0.1682,-0.0756,0.8630,True,15,Financials
+DECK,0.0534,0.0854,1.6611,0.8594,False,16,Consumer Discretionary
+MRVL,1.7471,0.0180,-0.2630,0.8313,False,17,Information Technology
+LRCX,0.8444,0.0284,1.1640,0.8148,False,18,Information Technology
+CL,0.2183,0.0262,2.8037,0.7967,True,19,Consumer Staples
+ILMN,1.1767,0.0273,0.5110,0.7909,True,20,Health Care
+MA,0.1368,0.0289,2.4986,0.7581,True,21,Financials
+HPE,1.4913,0.0386,-0.3697,0.7579,True,22,Information Technology
+WDC,1.2357,,,0.7525,False,23,Information Technology
+BKNG,-0.1874,0.0575,2.8480,0.7361,False,24,Consumer Discretionary
+DVA,0.5385,0.0720,0.6643,0.7215,False,25,Health Care
+EOG,0.4734,0.1007,0.1706,0.6945,True,26,Energy
+DPZ,-0.2393,0.0552,2.9209,0.6819,True,27,Consumer Discretionary
+AAPL,0.2623,0.0253,1.9325,0.6723,True,28,Information Technology
+CF,0.4140,0.1151,-0.0694,0.6640,True,29,Materials
+MTD,0.1587,0.0263,1.9917,0.6289,True,30,Health Care
+FFIV,0.9265,0.0391,0.3249,0.6263,False,31,Information Technology
+MAS,0.2179,0.0543,1.3363,0.6224,True,32,Industrials
+EXPE,0.1104,0.0657,1.3170,0.6215,False,33,Consumer Discretionary
+TWLO,1.0524,,,0.6211,True,34,Information Technology
+FIX,0.6119,0.0399,0.8771,0.6205,False,35,Industrials
+DVN,0.4570,0.0948,0.0835,0.6050,False,36,Energy
+BBY,0.2676,0.0572,1.0971,0.5862,True,37,Consumer Discretionary
+TER,0.9779,,,0.5676,False,38,Information Technology
+MO,0.3594,0.0627,0.7639,0.5632,True,39,Consumer Staples
+AES,0.1221,0.1669,-0.7631,0.5588,True,40,Utilities
+AMAT,0.8379,0.0293,0.4919,0.5558,False,41,Information Technology
+ADBE,-0.2538,0.0754,1.6344,0.5550,False,42,Information Technology
+KLAC,0.4749,0.0248,1.2046,0.5386,False,43,Information Technology
+RL,0.1639,0.0442,1.4025,0.5353,True,44,Consumer Discretionary
+LULU,-0.4272,0.1131,1.1490,0.5192,False,45,Consumer Discretionary
+CLX,-0.1452,0.0520,1.7816,0.5183,True,46,Consumer Staples
+HCA,-0.0310,0.0596,1.4096,0.5113,True,47,Health Care
+EIX,0.0017,0.1570,-0.5039,0.5083,False,48,Utilities
+LVS,-0.4084,0.0607,2.0369,0.4921,False,49,Consumer Discretionary
+BMY,0.3172,0.0717,0.4515,0.4780,True,50,Health Care
+GOOGL,0.2484,0.0653,0.6821,0.4709,False,51,Communication Services
+COP,0.6397,0.0688,-0.1100,0.4703,True,52,Energy
+GOOG,0.2313,0.0659,0.6821,0.4633,False,53,Communication Services
+ROST,0.4986,0.0343,0.7783,0.4599,False,54,Consumer Discretionary
+FAST,0.2820,0.0222,1.4002,0.4571,True,55,Industrials
+LLY,0.2156,0.0214,1.5202,0.4507,True,56,Health Care
+EBAY,0.4550,0.0373,0.7669,0.4467,True,57,Consumer Discretionary
+AMD,1.1800,0.0085,-0.0328,0.4439,True,58,Information Technology
+GEV,0.5738,0.0471,0.3485,0.4414,False,59,Industrials
+DLTR,0.1757,0.0575,0.8838,0.4397,True,60,Consumer Staples
+HPQ,0.2956,0.0905,0.0118,0.4299,True,61,Information Technology
+NUE,0.7850,0.0601,-0.3257,0.4262,True,62,Materials
+FICO,-0.5515,0.0498,3.0000,0.4183,False,63,Information Technology
+KEYS,0.8757,0.0242,0.1549,0.4141,False,64,Information Technology
+VTRS,0.7637,,,0.4141,True,65,Health Care
+TXN,0.7623,,,0.4131,True,66,Information Technology
+TGT,0.7521,,,0.4057,True,67,Consumer Staples
+ITW,0.1357,0.0388,1.2092,0.4005,True,68,Industrials
+OKTA,1.2627,0.0091,-0.3231,0.3952,True,69,Information Technology
+DXCM,0.4809,0.0316,0.6876,0.3925,True,70,Health Care
+CNC,0.8865,0.0413,-0.2491,0.3907,True,71,Health Care
+BE,1.0218,0.0079,0.1146,0.3834,False,72,Industrials
+TRGP,0.7165,,,0.3802,True,73,Energy
+CIEN,0.7954,0.0151,0.3831,0.3784,False,74,Information Technology
+LOW,-0.1268,0.0511,1.3939,0.3740,False,75,Consumer Discretionary
+NEM,0.3567,0.0728,0.0895,0.3737,False,76,Materials
+CMCSA,-0.1051,0.1263,-0.0778,0.3711,True,77,Communication Services
+OXY,0.4960,0.0784,-0.2985,0.3647,False,78,Energy
+ORLY,-0.0985,0.0360,1.6025,0.3645,True,79,Consumer Discretionary
+FERG,-0.0533,0.0400,1.4128,0.3523,True,80,Industrials
+SPG,0.1595,0.0590,0.6564,0.3512,True,81,Real Estate
+ABNB,0.4380,0.0294,0.6957,0.3488,True,82,Consumer Discretionary
+APP,-0.5174,0.0367,3.0000,0.3461,False,83,Communication Services
+RDDT,-0.1975,0.0464,1.5352,0.3436,False,84,Communication Services
+CVX,0.4796,0.0639,-0.0661,0.3360,True,85,Energy
+PM,0.3393,0.0349,0.7400,0.3353,True,86,Consumer Staples
+HUM,0.7692,0.0230,0.1149,0.3133,True,87,Health Care
+EXPD,0.4367,0.0404,0.3962,0.3126,True,88,Industrials
+HD,-0.1206,0.0407,1.4169,0.3109,True,89,Consumer Discretionary
+FIS,-0.4185,0.2214,-0.4073,0.3093,False,90,Financials
+IDXX,-0.1944,0.0211,1.9146,0.3075,True,91,Health Care
+CVS,0.2189,0.0962,-0.2728,0.3064,False,92,Health Care
+DG,0.3023,0.0560,0.3215,0.3017,True,93,Consumer Staples
+GRMN,0.4984,0.0354,0.3350,0.2961,True,94,Consumer Discretionary
+STLD,0.5945,,,0.2927,False,95,Materials
+ELV,0.3467,0.0548,0.2370,0.2920,True,96,Health Care
+QCOM,0.0182,0.0719,0.5032,0.2854,False,97,Information Technology
+XOM,0.5245,0.0583,-0.1811,0.2827,True,98,Energy
+META,0.1614,0.0466,0.6935,0.2760,False,99,Communication Services
+ZBRA,0.5621,,,0.2695,True,100,Information Technology
+P,0.5024,0.0069,0.7998,0.2695,True,101,Information Technology
+AMGN,0.2969,0.0369,0.6005,0.2652,True,102,Health Care
+EXE,-0.1937,0.1308,-0.3116,0.2497,False,103,Energy
+EG,0.2182,0.1123,-0.7595,0.2355,True,104,Financials
+PEP,-0.0471,0.0552,0.8022,0.2320,False,105,Consumer Staples
+KMB,0.0652,0.0481,0.7281,0.2316,True,106,Consumer Staples
+EME,0.1589,0.0519,0.4829,0.2311,False,107,Industrials
+ODFL,0.4212,0.0327,0.3428,0.2236,False,108,Industrials
+FCX,0.7530,0.0383,-0.3848,0.2205,False,109,Materials
+ACGL,0.0860,0.1120,-0.5754,0.2101,True,110,Financials
+WST,0.4723,,,0.2051,True,111,Health Care
+MSCI,0.0082,0.0286,1.1295,0.2028,True,112,Financials
+HIG,0.0216,0.1089,-0.4187,0.2018,True,113,Financials
+HON,0.0195,0.0886,-0.0546,0.1924,False,114,Industrials
+COR,-0.0550,0.0513,0.7891,0.1923,True,115,Health Care
+AMZN,0.1183,0.0465,0.5572,0.1911,True,116,Consumer Discretionary
+STT,0.4494,,,0.1887,True,117,Financials
+SWK,0.4486,,,0.1882,True,118,Industrials
+GL,0.2838,0.0923,-0.6252,0.1878,False,119,Financials
+LYB,0.4950,0.0660,-0.5219,0.1858,False,120,Materials
+MNST,0.3126,0.0242,0.6041,0.1851,True,121,Consumer Staples
+OKE,0.3610,0.0730,-0.4258,0.1788,True,122,Energy
+FDX,0.3857,0.0575,-0.1786,0.1782,True,123,Industrials
+AMP,0.0592,0.0854,-0.1080,0.1764,True,124,Financials
+GWW,0.4314,,,0.1758,True,125,Industrials
+AZO,-0.1968,0.0471,1.0651,0.1671,True,126,Consumer Discretionary
+CTSH,-0.0595,0.0851,0.0807,0.1622,True,127,Information Technology
+WAB,0.4110,,,0.1612,True,128,Industrials
+GDDY,-0.1773,0.0640,0.6838,0.1573,True,129,Information Technology
+CAT,0.3180,0.0424,0.1739,0.1552,False,130,Industrials
+CASY,0.2921,0.0291,0.4730,0.1551,False,131,Consumer Staples
+CPT,-0.0071,0.1080,-0.4706,0.1543,False,132,Real Estate
+PLTR,0.1157,0.0082,1.1856,0.1521,True,133,Information Technology
+ADM,0.4138,0.0722,-0.5821,0.1497,False,134,Consumer Staples
+CTAS,0.1457,0.0223,0.8505,0.1470,True,135,Industrials
+MKC,-0.2727,0.1178,-0.1872,0.1461,False,136,Consumer Staples
+WSM,0.3873,,,0.1442,True,137,Consumer Discretionary
+DRI,0.2835,0.0450,0.1464,0.1392,True,138,Consumer Discretionary
+LII,-0.2365,0.0630,0.7556,0.1355,False,139,Industrials
+MSI,0.2217,0.0232,0.6501,0.1304,True,140,Information Technology
+KO,0.3477,0.0347,0.1927,0.1279,True,141,Consumer Staples
+TRV,0.3622,,,0.1262,True,142,Financials
+LMT,0.2075,0.0462,0.2237,0.1232,True,143,Industrials
+CCL,0.0329,0.0740,0.0020,0.1166,True,144,Consumer Discretionary
+JBL,0.3988,0.0377,-0.0052,0.1091,False,145,Information Technology
+SHW,0.0054,0.0306,0.8459,0.1052,True,146,Materials
+CSCO,0.3907,0.0330,0.0857,0.1047,False,147,Information Technology
+FOX,0.0081,0.0775,-0.0499,0.1046,True,148,Communication Services
+MPWR,0.3715,0.0123,0.5060,0.1019,False,149,Information Technology
+INTC,1.5909,-0.0376,-0.8048,0.1003,False,150,Information Technology
+ANET,0.3926,0.0190,0.3250,0.0954,True,151,Information Technology
+UNP,0.3140,,,0.0917,True,152,Industrials
+MCO,0.0124,0.0318,0.7721,0.0910,True,153,Financials
+HST,0.4845,0.0524,-0.4902,0.0904,True,154,Real Estate
+OTIS,-0.1863,0.0519,0.7573,0.0901,True,155,Industrials
+KR,-0.0386,0.0259,0.9655,0.0859,True,156,Consumer Staples
+AOS,-0.0784,0.0554,0.4677,0.0810,True,157,Industrials
+UNH,0.2978,,,0.0800,True,158,Health Care
+CMG,-0.0545,0.0292,0.9134,0.0785,True,159,Consumer Discretionary
+PGR,0.0363,0.0850,-0.3259,0.0727,True,160,Financials
+STZ,0.0363,0.0775,-0.1848,0.0724,True,161,Consumer Staples
+HAL,0.2325,0.0723,-0.4634,0.0664,False,162,Energy
+MRNA,8.1599,-0.0283,-1.5670,0.0655,True,163,Health Care
+CDW,0.0736,0.0495,0.2570,0.0649,True,164,Information Technology
+USB,0.2755,,,0.0640,True,165,Financials
+NCLH,-0.1668,0.0962,-0.2004,0.0579,False,166,Consumer Discretionary
+PPG,0.1290,0.0570,-0.0053,0.0576,True,167,Materials
+CPAY,0.4425,0.0394,-0.2572,0.0552,True,168,Financials
+ADI,0.6999,0.0206,-0.3860,0.0516,True,169,Information Technology
+FOXA,0.0160,0.0691,-0.0499,0.0487,True,170,Communication Services
+NXPI,0.1885,0.0472,0.0442,0.0473,True,171,Information Technology
+PFG,0.3087,0.0783,-0.7688,0.0467,True,172,Financials
+ABBV,0.2530,0.0197,0.4419,0.0463,True,173,Health Care
+NTRS,0.3183,0.0713,-0.6710,0.0405,True,174,Financials
+GLW,0.6262,0.0205,-0.2814,0.0388,False,175,Information Technology
+APH,0.2089,0.0291,0.3244,0.0382,True,176,Information Technology
+ADP,0.1670,0.0368,0.2537,0.0372,True,177,Industrials
+TDY,0.2365,,,0.0361,False,178,Information Technology
+URI,0.2364,,,0.0360,True,179,Industrials
+CI,0.1320,0.0752,-0.4156,0.0347,True,180,Health Care
+ALGN,0.0866,0.0399,0.3379,0.0346,False,181,Health Care
+JBHT,0.3789,0.0311,-0.0392,0.0337,False,182,Industrials
+NDSN,0.4240,0.0300,-0.1045,0.0324,True,183,Industrials
+ROK,0.1406,0.0309,0.3983,0.0307,False,184,Industrials
+CRWD,0.6973,0.0003,-0.0515,0.0303,True,185,Information Technology
+V,0.2282,,,0.0301,True,186,Financials
+VRSN,0.2271,,,0.0293,True,187,Information Technology
+MET,0.2931,0.0743,-0.7175,0.0262,True,188,Financials
+RCL,0.1374,0.0504,0.0160,0.0237,True,189,Consumer Discretionary
+ADSK,-0.1960,0.0297,1.0248,0.0236,True,190,Information Technology
+WELL,0.2178,,,0.0226,True,191,Real Estate
+HSY,-0.0400,0.0501,0.3452,0.0220,False,192,Consumer Staples
+MRK,0.5911,0.0067,-0.0038,0.0202,True,193,Health Care
+CMI,0.1452,0.0517,-0.0356,0.0190,False,194,Industrials
+CINF,0.0599,0.0898,-0.6057,0.0161,True,195,Financials
+VRT,0.2066,,,0.0147,False,196,Industrials
+MTB,0.1760,0.0869,-0.7728,0.0135,False,197,Financials
+DDOG,0.4073,0.0039,0.3713,0.0132,False,198,Information Technology
+LUV,0.2033,,,0.0123,True,199,Industrials
+BEN,0.4537,0.0543,-0.6727,0.0114,True,200,Financials
+PYPL,-0.0903,0.0881,-0.3095,0.0110,True,201,Financials
+HSIC,0.1756,0.0413,0.0811,0.0092,True,202,Health Care
+RF,0.1338,0.0890,-0.7499,0.0077,False,203,Financials
+CB,0.2167,0.0770,-0.6759,0.0076,True,204,Financials
+GEN,-0.0969,0.0643,0.1411,0.0063,True,205,Information Technology
+PNC,0.2138,0.0809,-0.7492,0.0058,False,206,Financials
+C,0.2316,0.0826,-0.8186,0.0038,False,207,Financials
+PTC,0.0749,0.0455,0.1715,0.0033,True,208,Information Technology
+WMB,0.1891,,,0.0021,False,209,Energy
+EL,0.2167,0.0089,0.5917,-0.0012,True,210,Consumer Staples
+KEY,0.1770,0.0849,-0.7752,-0.0017,False,211,Financials
+TMO,0.1781,,,-0.0058,True,212,Health Care
+DAL,0.2914,0.0549,-0.4300,-0.0064,True,213,Industrials
+TPR,0.1757,,,-0.0075,False,214,Consumer Discretionary
+SBUX,0.1754,,,-0.0078,True,215,Consumer Discretionary
+CBOE,0.1950,0.0381,0.0621,-0.0080,True,216,Financials
+COHR,0.6653,0.0206,-0.4809,-0.0099,False,217,Information Technology
+WMT,0.1680,,,-0.0130,True,218,Consumer Staples
+RMD,-0.0112,0.0460,0.2785,-0.0132,True,219,Health Care
+IEX,0.4413,0.0300,-0.2558,-0.0140,True,220,Industrials
+PAYX,0.0216,0.0437,0.2595,-0.0143,True,221,Industrials
+SNPS,0.1661,,,-0.0144,False,222,Information Technology
+PG,0.0916,0.0396,0.2015,-0.0166,True,223,Consumer Staples
+JNJ,0.3245,0.0235,0.0683,-0.0197,True,224,Health Care
+CSX,0.3896,0.0370,-0.3086,-0.0202,True,225,Industrials
+AVY,0.0385,0.0491,0.1000,-0.0242,True,226,Materials
+PRU,0.1169,0.0892,-0.8119,-0.0270,True,227,Financials
+ACN,-0.0059,0.0535,0.0923,-0.0271,True,228,Information Technology
+VRTX,0.1482,,,-0.0272,True,229,Health Care
+FDS,0.1268,0.0435,0.0350,-0.0273,True,230,Financials
+VZ,0.1468,,,-0.0282,False,231,Communication Services
+T,-0.0501,0.0840,-0.4104,-0.0294,False,232,Communication Services
+WAT,0.1446,,,-0.0298,True,233,Health Care
+ON,0.5584,0.0232,-0.3883,-0.0312,False,234,Information Technology
+CFG,0.2395,0.0757,-0.8087,-0.0374,False,235,Financials
+MMM,-0.0196,0.0355,0.4267,-0.0393,True,236,Industrials
+ALLE,-0.0249,0.0421,0.3116,-0.0393,True,237,Industrials
+FLEX,0.4592,0.0352,-0.4536,-0.0397,False,238,Information Technology
+SOLV,0.1241,,,-0.0445,True,239,Health Care
+SYY,0.1237,,,-0.0448,False,240,Consumer Staples
+TT,0.1200,,,-0.0475,False,241,Industrials
+ULTA,0.1177,,,-0.0491,True,242,Consumer Discretionary
+NWSA,0.1582,0.0417,-0.0482,-0.0501,False,243,Communication Services
+NFLX,-0.3719,0.0536,0.7049,-0.0506,False,244,Communication Services
+DGX,0.2777,0.0388,-0.2228,-0.0538,True,245,Health Care
+VTR,0.1102,,,-0.0545,True,246,Real Estate
+CRL,0.7879,0.0027,-0.4853,-0.0554,True,247,Health Care
+BF-B,0.0477,0.0515,-0.0452,-0.0564,True,248,Consumer Staples
+AIZ,0.2452,0.0656,-0.6794,-0.0577,True,249,Financials
+CHD,0.2494,0.0291,0.0011,-0.0585,True,250,Consumer Staples
+FANG,0.3846,0.0411,-0.4804,-0.0606,False,251,Energy
+WM,0.1005,,,-0.0614,True,252,Industrials
+MGM,-0.1232,0.0777,-0.2436,-0.0635,False,253,Consumer Discretionary
+SNA,0.1357,0.0514,-0.2321,-0.0669,False,254,Industrials
+BKR,0.1577,0.0589,-0.4170,-0.0675,False,255,Energy
+PHM,-0.0551,0.0723,-0.2836,-0.0700,True,256,Consumer Discretionary
+UPS,0.0821,,,-0.0746,True,257,Industrials
+VEEV,0.0799,,,-0.0762,True,258,Health Care
+BNY,0.3064,0.0591,-0.7233,-0.0780,True,259,Financials
+JCI,0.2593,0.0326,-0.1350,-0.0782,False,260,Industrials
+CVNA,-0.0778,0.0282,0.5717,-0.0785,True,261,Consumer Discretionary
+VMRK,0.0716,,,-0.0821,True,262,Real Estate
+NVR,-0.1986,0.0614,0.1564,-0.0822,False,263,Consumer Discretionary
+MCHP,0.4282,0.0214,-0.2452,-0.0824,False,264,Information Technology
+PWR,0.4416,0.0182,-0.2111,-0.0833,False,265,Industrials
+ZBH,0.0678,,,-0.0849,True,266,Health Care
+TFC,0.0644,,,-0.0873,True,267,Financials
+MSFT,0.0544,0.0368,0.1412,-0.0876,True,268,Information Technology
+RJF,-0.0196,0.0713,-0.3775,-0.0884,True,269,Financials
+GS,0.1291,0.0750,-0.7312,-0.0913,False,270,Financials
+CRM,0.0035,0.0501,-0.0285,-0.0917,False,271,Information Technology
+GNRC,0.2784,0.0261,-0.0828,-0.0920,False,272,Industrials
+EQT,-0.0835,0.0801,-0.4402,-0.0937,False,273,Energy
+COST,0.0834,0.0191,0.3996,-0.0964,True,274,Consumer Staples
+DIS,0.0508,,,-0.0971,True,275,Communication Services
+FSLR,-0.3212,0.0971,-0.3319,-0.0972,False,276,Information Technology
+CDNS,0.0347,0.0153,0.5527,-0.0999,False,277,Information Technology
+TROW,0.0358,,,-0.1078,True,278,Financials
+TSN,0.0355,,,-0.1080,True,279,Consumer Staples
+PCG,-0.1933,0.1031,-0.7156,-0.1105,False,280,Utilities
+SYF,0.0284,,,-0.1131,False,281,Financials
+KMI,0.2525,0.0513,-0.5657,-0.1133,True,282,Energy
+YUM,0.0250,,,-0.1156,True,283,Consumer Discretionary
+JKHY,-0.0543,0.0414,0.1794,-0.1167,True,284,Financials
+VLTO,0.0228,,,-0.1171,True,285,Industrials
+AVGO,-0.0157,0.0227,0.4577,-0.1185,False,286,Information Technology
+A,0.1659,0.0287,0.0092,-0.1185,True,287,Health Care
+TJX,0.0181,,,-0.1205,False,288,Consumer Discretionary
+LDOS,-0.3338,0.0836,-0.1141,-0.1210,False,289,Industrials
+TPL,0.0171,,,-0.1212,False,290,Energy
+SO,0.0168,,,-0.1214,True,291,Utilities
+UDR,0.0156,,,-0.1223,False,292,Real Estate
+HUBB,0.0873,0.0384,-0.0420,-0.1228,False,293,Industrials
+MAR,0.3788,0.0234,-0.2999,-0.1246,True,294,Consumer Discretionary
+SLB,0.3614,0.0404,-0.5915,-0.1250,False,295,Energy
+PODD,-0.5733,0.0408,1.1247,-0.1262,False,296,Health Care
+DHI,-0.0415,0.0686,-0.3835,-0.1264,False,297,Consumer Discretionary
+JPM,0.1197,0.0694,-0.6997,-0.1271,True,298,Financials
+PH,0.1686,0.0299,-0.0441,-0.1279,False,299,Industrials
+MDLZ,0.1536,0.0475,-0.3503,-0.1282,True,300,Consumer Staples
+UAL,0.0060,,,-0.1292,False,301,Industrials
+NKE,-0.4010,0.0543,0.5422,-0.1297,False,302,Consumer Discretionary
+RVTY,0.6310,0.0142,-0.6161,-0.1338,True,303,Health Care
+CHRW,-0.0774,0.0416,0.1677,-0.1360,False,304,Industrials
+EMR,0.2726,0.0287,-0.2453,-0.1406,True,305,Industrials
+WEC,-0.0108,,,-0.1412,True,306,Utilities
+WTW,-0.0110,,,-0.1414,True,307,Financials
+WRB,-0.0111,,,-0.1414,True,308,Financials
+GEHC,-0.0450,0.0573,-0.2046,-0.1424,True,309,Health Care
+REGN,0.1335,0.0472,-0.3470,-0.1440,True,310,Health Care
+ROL,-0.4327,0.0283,1.0542,-0.1443,False,311,Industrials
+HWM,0.0840,0.0228,0.2012,-0.1460,False,312,Industrials
+COF,-0.0389,0.0828,-0.7124,-0.1475,False,313,Financials
+WFC,-0.0224,,,-0.1495,True,314,Financials
+INCY,0.0874,0.0160,0.3130,-0.1496,True,315,Health Care
+MS,0.1071,0.0662,-0.6844,-0.1542,False,316,Financials
+AIG,0.0630,0.0740,-0.7569,-0.1564,True,317,Financials
+TKO,-0.0385,,,-0.1611,False,318,Communication Services
+XEL,-0.0385,,,-0.1611,True,319,Utilities
+PANW,0.6904,0.0012,-0.5537,-0.1628,True,320,Information Technology
+HLT,0.2857,0.0197,-0.1562,-0.1629,True,321,Consumer Discretionary
+Q,0.4298,0.0210,-0.4583,-0.1669,False,322,Information Technology
+BAC,-0.0218,0.0827,-0.7985,-0.1694,False,323,Financials
+AME,0.2864,0.0296,-0.3654,-0.1707,True,324,Industrials
+DOV,0.0778,0.0403,-0.1863,-0.1716,False,325,Industrials
+TXT,-0.0551,,,-0.1730,False,326,Industrials
+KDP,0.3106,0.0290,-0.4082,-0.1740,True,327,Consumer Staples
+LH,0.2067,0.0328,-0.2940,-0.1766,True,328,Health Care
+MRSH,0.0537,0.0403,-0.1675,-0.1820,True,329,Financials
+PKG,0.2289,0.0321,-0.3364,-0.1825,True,330,Materials
+BALL,0.3599,0.0302,-0.5461,-0.1833,True,331,Materials
+FITB,0.2261,0.0548,-0.7654,-0.1840,True,332,Financials
+VMC,-0.0772,,,-0.1888,False,333,Materials
+HBAN,0.0054,0.0768,-0.7892,-0.1894,False,334,Financials
+ECL,0.1179,0.0239,0.0047,-0.1898,True,335,Materials
+NOC,-0.0699,0.0575,-0.2954,-0.1938,False,336,Industrials
+IQV,0.2052,0.0299,-0.2896,-0.1968,True,337,Health Care
+TSLA,-0.0897,,,-0.1978,False,338,Consumer Discretionary
+ETN,0.1203,0.0278,-0.1022,-0.2010,False,339,Industrials
+TEL,-0.0956,,,-0.2020,True,340,Information Technology
+BG,0.1015,0.0580,-0.6460,-0.2030,False,341,Consumer Staples
+WY,-0.1008,,,-0.2057,False,342,Real Estate
+ED,0.1148,0.0523,-0.5708,-0.2067,True,343,Utilities
+L,0.0582,0.0648,-0.7164,-0.2115,True,344,Financials
+LIN,0.2052,0.0286,-0.3055,-0.2129,True,345,Materials
+VRSK,-0.1146,,,-0.2156,True,346,Industrials
+AXP,-0.1042,0.0549,-0.2434,-0.2170,False,347,Financials
+AMCR,0.0996,0.0525,-0.5762,-0.2181,True,348,Materials
+SMCI,-0.1186,,,-0.2185,False,349,Information Technology
+MCK,0.2046,0.0359,-0.4578,-0.2187,True,350,Health Care
+BR,-0.2076,0.0468,0.0936,-0.2200,True,351,Industrials
+BIIB,0.3935,0.0091,-0.3032,-0.2202,True,352,Health Care
+AON,-0.1684,0.0543,-0.1210,-0.2203,True,353,Financials
+PCAR,0.1583,0.0485,-0.6170,-0.2215,False,354,Industrials
+TECH,0.2277,0.0150,-0.1122,-0.2218,True,355,Health Care
+DE,0.3316,0.0260,-0.5180,-0.2238,True,356,Industrials
+TTWO,-0.1281,,,-0.2253,False,357,Communication Services
+GM,0.1835,0.0514,-0.7368,-0.2282,True,358,Consumer Discretionary
+STE,-0.1336,,,-0.2293,True,359,Health Care
+PNW,0.1767,0.0493,-0.6895,-0.2302,True,360,Utilities
+BRK-B,0.0458,0.0607,-0.6673,-0.2314,True,361,Financials
+VST,-0.1381,,,-0.2325,False,362,Utilities
+TDG,-0.1478,,,-0.2395,False,363,Industrials
+IBM,-0.2109,0.0472,0.0393,-0.2406,False,364,Information Technology
+MDT,-0.0003,0.0401,-0.2170,-0.2416,True,365,Health Care
+WDAY,-0.1543,,,-0.2441,True,366,Information Technology
+FTV,0.1191,0.0311,-0.2831,-0.2477,True,367,Industrials
+EVRG,0.1055,0.0508,-0.6385,-0.2502,True,368,Utilities
+PFE,0.2354,0.0238,-0.3680,-0.2510,True,369,Health Care
+SYK,-0.1683,,,-0.2542,False,370,Health Care
+NEE,-0.0413,0.0645,-0.6429,-0.2564,False,371,Utilities
+XYZ,0.2814,0.0089,-0.1893,-0.2581,True,372,Financials
+MCD,-0.1893,0.0460,-0.0363,-0.2633,False,373,Consumer Discretionary
+FE,0.0146,0.0445,-0.3844,-0.2634,True,374,Utilities
+RSG,0.1048,0.0290,-0.2572,-0.2635,True,375,Industrials
+VICI,-0.1858,,,-0.2667,False,376,Real Estate
+SCHW,-0.0416,0.0631,-0.6409,-0.2667,False,377,Financials
+UHS,-0.1864,,,-0.2672,True,378,Health Care
+APTV,-0.4363,0.0908,-0.4391,-0.2672,False,379,Consumer Discretionary
+GD,0.0098,0.0463,-0.4231,-0.2688,True,380,Industrials
+NSC,0.1536,0.0361,-0.4964,-0.2689,True,381,Industrials
+LYV,0.2572,-0.0006,0.0039,-0.2702,True,382,Communication Services
+FRT,0.1260,0.0442,-0.6048,-0.2711,True,383,Real Estate
+CAH,0.2418,0.0279,-0.5107,-0.2717,True,384,Health Care
+BDX,0.2883,0.0236,-0.5169,-0.2722,True,385,Health Care
+IR,0.0310,0.0415,-0.3815,-0.2725,True,386,Industrials
+BX,-0.2191,0.0368,0.1606,-0.2758,False,387,Financials
+AMT,0.0375,0.0373,-0.3306,-0.2787,True,388,Real Estate
+NDAQ,0.0844,0.0334,-0.3441,-0.2794,True,389,Financials
+AFL,0.0596,0.0539,-0.7007,-0.2848,True,390,Financials
+INTU,-0.5015,0.0480,0.4453,-0.2852,False,391,Information Technology
+DASH,-0.0649,0.0135,0.2721,-0.2931,False,392,Consumer Discretionary
+TRMB,-0.2270,,,-0.2963,False,393,Information Technology
+PSA,0.1228,0.0283,-0.3639,-0.2966,True,394,Real Estate
+TYL,-0.2300,,,-0.2984,True,395,Information Technology
+EW,0.0107,0.0163,0.0655,-0.2991,True,396,Health Care
+UBER,-0.2364,,,-0.3030,False,397,Industrials
+CRH,-0.2323,0.0552,-0.2376,-0.3050,False,398,Materials
+HII,-0.1269,0.0591,-0.5081,-0.3051,False,399,Industrials
+IBKR,0.2372,0.0318,-0.6692,-0.3078,False,400,Financials
+KIM,0.1642,0.0418,-0.7245,-0.3081,True,401,Real Estate
+NRG,-0.3925,0.0587,-0.0228,-0.3107,False,402,Utilities
+GE,0.0267,0.0255,-0.1705,-0.3110,True,403,Industrials
+LITE,2.5947,-0.1383,-1.5771,-0.3113,False,404,Information Technology
+FISV,-0.2480,,,-0.3113,True,405,Financials
+AEE,0.0185,0.0508,-0.6371,-0.3125,True,406,Utilities
+SBAC,-0.0531,0.0487,-0.4687,-0.3135,False,407,Real Estate
+AEP,0.0518,0.0474,-0.6414,-0.3153,False,408,Utilities
+IRM,0.2619,0.0136,-0.3917,-0.3158,False,409,Real Estate
+TMUS,-0.2624,,,-0.3216,False,410,Communication Services
+DUK,-0.0026,0.0530,-0.6632,-0.3216,True,411,Utilities
+XYL,-0.2645,,,-0.3231,False,412,Industrials
+GPC,0.0601,0.0021,0.1781,-0.3240,True,413,Consumer Discretionary
+ERIE,-0.1347,0.0405,-0.1944,-0.3264,True,414,Financials
+ROP,-0.1386,0.0529,-0.4274,-0.3281,True,415,Information Technology
+ETR,0.1118,0.0390,-0.6437,-0.3345,True,416,Utilities
+EXC,-0.0512,0.0561,-0.6670,-0.3347,True,417,Utilities
+LNT,0.0161,0.0488,-0.6613,-0.3384,True,418,Utilities
+D,0.0711,0.0445,-0.7080,-0.3482,True,419,Utilities
+ES,-0.0797,0.0537,-0.6212,-0.3550,True,420,Utilities
+EQIX,0.2686,0.0156,-0.5433,-0.3553,True,421,Real Estate
+CBRE,-0.1490,0.0347,-0.1441,-0.3593,False,422,Real Estate
+ICE,0.0555,0.0406,-0.6441,-0.3631,True,423,Financials
+RTX,0.1104,0.0306,-0.5620,-0.3660,True,424,Industrials
+ATO,-0.0375,0.0478,-0.6188,-0.3676,False,425,Utilities
+NOW,-0.1454,0.0135,0.2255,-0.3689,False,426,Information Technology
+SRE,-0.0847,0.0597,-0.7652,-0.3706,False,427,Utilities
+ZTS,-0.3309,,,-0.3708,False,428,Health Care
+CNP,0.0181,0.0424,-0.6310,-0.3716,False,429,Utilities
+PPL,-0.0364,0.0492,-0.6637,-0.3739,False,430,Utilities
+CHTR,-0.4657,0.0781,-0.4182,-0.3741,False,431,Communication Services
+AKAM,0.0009,0.0296,-0.3668,-0.3754,False,432,Information Technology
+SPGI,-0.0763,0.0352,-0.3313,-0.3759,True,433,Financials
+REG,0.0834,0.0366,-0.6762,-0.3851,False,434,Real Estate
+BLK,0.0857,0.0358,-0.6694,-0.3867,True,435,Financials
+SWKS,0.2437,0.0130,-0.5296,-0.3868,True,436,Information Technology
+SJM,0.2001,0.0161,-0.5076,-0.3870,True,437,Consumer Staples
+COO,-0.1937,0.0462,-0.3526,-0.3875,False,438,Health Care
+IFF,0.4114,0.0042,-0.6792,-0.3892,True,439,Materials
+DTE,-0.0423,0.0470,-0.6552,-0.3911,False,440,Utilities
+NI,-0.0022,0.0428,-0.6542,-0.3924,False,441,Utilities
+SW,0.2264,0.0204,-0.6555,-0.3936,False,442,Materials
+EFX,-0.2258,0.0328,-0.0581,-0.3950,True,443,Industrials
+WYNN,-0.3648,,,-0.3950,False,444,Consumer Discretionary
+AWK,0.0358,0.0386,-0.6555,-0.3965,True,445,Utilities
+CME,0.0698,0.0386,-0.7395,-0.4048,True,446,Financials
+ISRG,-0.2117,0.0184,0.1462,-0.4114,True,447,Health Care
+TSCO,-0.3937,,,-0.4158,True,448,Consumer Discretionary
+DHR,0.0220,0.0257,-0.4483,-0.4212,True,449,Health Care
+INVH,-0.0163,0.0424,-0.7049,-0.4252,False,450,Real Estate
+EXR,0.0888,0.0309,-0.6867,-0.4274,True,451,Real Estate
+ORCL,-0.4107,0.0497,-0.1260,-0.4297,False,452,Information Technology
+CEG,-0.2182,0.0453,-0.4228,-0.4393,False,453,Utilities
+ABT,-0.1833,0.0245,-0.0942,-0.4394,True,454,Health Care
+PLD,0.0420,0.0349,-0.7226,-0.4454,False,455,Real Estate
+BXP,-0.1415,0.0526,-0.7235,-0.4469,True,456,Real Estate
+CPRT,-0.3303,0.0482,-0.2938,-0.4484,False,457,Industrials
+DOC,0.1264,0.0265,-0.7343,-0.4512,True,458,Real Estate
+J,-0.0945,0.0191,-0.2051,-0.4585,True,459,Industrials
+BRO,-0.1358,0.0443,-0.6067,-0.4591,True,460,Financials
+PEG,-0.1220,0.0477,-0.7141,-0.4661,False,461,Utilities
+GILD,0.2546,-0.0184,-0.1611,-0.4671,True,462,Health Care
+LHX,-0.1434,0.0388,-0.5242,-0.4725,False,463,Industrials
+BSX,-0.5613,0.0525,-0.0177,-0.4749,False,464,Health Care
+LEN,-0.3595,0.0612,-0.5559,-0.4756,False,465,Consumer Discretionary
+CMS,-0.0674,0.0402,-0.7074,-0.4790,False,466,Utilities
+BA,-0.0159,0.0555,-1.1297,-0.4935,False,467,Industrials
+ESS,0.0889,0.0197,-0.6661,-0.5018,True,468,Real Estate
+DD,0.1048,0.0184,-0.6773,-0.5038,True,469,Industrials
+PNR,-0.4894,0.0529,-0.2458,-0.5088,False,470,Industrials
+HRL,-0.0512,0.0282,-0.5882,-0.5091,True,471,Consumer Staples
+ALB,-0.1686,0.0432,-0.6725,-0.5157,False,472,Materials
+OMC,0.1454,0.0111,-0.6690,-0.5252,True,473,Communication Services
+APD,0.1822,0.0076,-0.7081,-0.5401,True,474,Materials
+O,0.0263,0.0245,-0.7580,-0.5468,False,475,Real Estate
+AJG,-0.0098,0.0232,-0.6714,-0.5485,True,476,Financials
+MAA,-0.0719,0.0279,-0.6490,-0.5499,False,477,Real Estate
+GPN,0.1563,0.0056,-0.6492,-0.5505,True,478,Financials
+DLR,0.1250,0.0131,-0.7527,-0.5580,False,479,Real Estate
+HOOD,-0.2121,0.0257,-0.4662,-0.5961,False,480,Financials
+MLM,-0.1542,0.0256,-0.6711,-0.6348,False,481,Materials
+CCI,-0.0703,0.0280,-0.9160,-0.6521,True,482,Real Estate
+AXON,-0.3090,0.0099,-0.2075,-0.6812,False,483,Industrials
+ARES,-0.1962,0.0088,-0.4395,-0.6979,True,484,Financials
+BAX,0.3556,-0.0459,-0.5974,-0.7662,True,485,Health Care
+IVZ,0.2302,-0.0241,-0.7928,-0.7715,True,486,Financials
+DOW,0.3766,-0.0396,-0.8244,-0.7930,False,487,Materials
+CSGP,-0.5325,0.0142,-0.2800,-0.8377,False,488,Real Estate
+KKR,-0.2693,0.0341,-1.2367,-0.8742,False,489,Financials
+APO,-0.1364,-0.0146,-0.9304,-1.0176,False,490,Financials
+CARR,0.0322,-0.0405,-0.7537,-1.0187,False,491,Industrials
+COIN,-0.4069,-0.0203,-0.6458,-1.1434,False,492,Financials
+GIS,-0.2656,-0.0479,-0.5810,-1.2199,False,493,Consumer Staples
+KHC,-0.0038,-0.1207,-0.8279,-1.3566,True,494,Consumer Staples
+IP,-0.0632,-0.1855,-0.7428,-1.3662,False,495,Materials
+F,-0.0446,-0.1616,-1.0627,-1.4770,False,496,Consumer Discretionary
+ARE,-0.1763,-0.1866,-0.9196,-1.5159,False,497,Real Estate
+MOS,-0.2868,-0.1553,-0.9932,-1.6237,False,498,Materials
